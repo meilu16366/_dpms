@@ -1,0 +1,11 @@
+.buttons{
+	margin: 5px;
+}
+.l-button{
+	width:60px;float:right; margin:10px;
+}
+.l-button:HOVER{
+	orphans: 0.7;
+}
+.search-bar{
+}

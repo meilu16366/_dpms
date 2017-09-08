@@ -1,0 +1,41 @@
+form.formular,
+.validationEngineContainer{width:98%;min-height:500px;margin-top:10px;padding:20px;border:1px solid #A5A8B8;border-radius:3px;background:#f3f3f3;font-family:verdana,"sans-serif";font-size:12px;}
+.formular fieldset{margin-bottom:15px;padding:15px;border:1px solid #B5B8C8;border-radius:3px;}
+.formular legend{color:#15428B;font-size:12px;font-weight:bold;}
+.formular label{display:block;margin-bottom:4px;}
+.formular code{display:block;margin:0 0 10px 0;padding:3px 5px;}
+.formular code:last-child{margin-bottom:0;}
+.formular input{}
+.formular .btn-sub{width: 100%;text-align: center;}
+.formular select,
+.formular textarea{display:block;/* this breaks relative positioning */}
+.formular select{margin-bottom:10px;padding:4px;border:1px solid #B5B8C8;border-radius:3px;}
+.formular .text-input{margin-bottom:10px;width:300px;padding:4px;border:1px solid #B5B8C8;border-radius:3px;background:#FFF;color:#555;font-size:14px;}
+.formular textarea{width:300px;height:70px;margin-bottom:10px;padding:4px;border:1px solid #B5B8C8;border-radius:3px;background:#FFF;color:#555;font-size:14px;}
+.formular .tips{margin-bottom:10px;color:#777;}
+.formular .infos{margin-bottom:10px;padding:10px;background:#FFF;color:#333;font-size:12px;}
+.formular span.checkbox,
+.formular .checkbox,
+.formular .radio{display:inline;margin:0 5px 0 0;padding:0;vertical-align:-2px;*vertical-align:middle;}
+.formular .submit{margin-top:20px;padding:4px 9px;border:none;border-radius:3px;background:#347ebf;box-shadow:0 1px 2px #347ebf;color:#fff;text-decoration:none;cursor:pointer;}
+.formular hr{clear:both;visibility:hidden;}
+.formular .fc-error{width:350px;color:#555;margin-bottom:15px;padding:4px;border:1px solid #B5B8C8;background:#FFEAEA;font-size:12px;}
+/*.formular input[data-prompt-position="inline"]{display:inline;}*/
+.footnote{color:#666;font-size:11px;font-style:italic;}
+.prompt-target{min-height:21px;border:1px dotted #666;}
+.inline-prompts label > span{display:inline-block;width:250px;}
+.inline-prompts .text-input+.formError{margin-left:10px;}
+.prompt-summary .inline{display:block;}
+
+.apicon{overflow:hidden;font:12px/16px Arial;}
+.apicon a{float:left;margin:10px 10px 0 0;padding:5px 10px;border:1px solid #ddd;border-radius:3px;color:#333;}
+.apicon a:hover{border-color:#347ebf;background:#ebf2f9;color:#347ebf;text-decoration:none;}
+.apicon a:active{box-shadow:inset 0 0 3px #347ebf;}
+
+.test{width:600px;margin:10px 0 0 0;padding:5px 10px;border-radius:3px;background:#f3f3f3;color:#333;}
+.form-loc{
+	width:50%;
+	margin:0;
+	padding:0;
+	float: left;
+}
