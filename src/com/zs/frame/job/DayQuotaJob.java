@@ -13,8 +13,7 @@ public class DayQuotaJob implements Job {
 
 	@Override
 	public void execute(JobExecutionContext jobContext) throws JobExecutionException {
-		
-		System.out.println(1);
+		//System.out.println(1);
 	}
 
 }

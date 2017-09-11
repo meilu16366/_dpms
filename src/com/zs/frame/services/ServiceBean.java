@@ -1,7 +1,9 @@
 package com.zs.frame.services;
 
+import javax.servlet.ServletContext;
 
-import org.springframework.context.ApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
+
 
 /**
  * 获取spring bean
@@ -11,14 +13,19 @@ import org.springframework.context.ApplicationContext;
  */
 public class ServiceBean<T> {
 	
-	private static ApplicationContext applicationContext;
+	
+	private static ServletContext context;
 	
 	@SuppressWarnings("unchecked")
 	public static <T> T getBean(String id){
-		return (T) applicationContext.getBean(id);
+		return (T) WebApplicationContextUtils.getWebApplicationContext(context).getBean(id);
 	}
 	
-	public static void setApplicationContext(ApplicationContext appContext){
-		applicationContext = appContext;
+	public static void setServletContext(ServletContext sc){
+		context = sc;
+	}
+	
+	public static ServletContext getServletContext() {
+		return context;
 	}
 }
