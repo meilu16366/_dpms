@@ -8,13 +8,12 @@
 	<title>分布式光伏电站监控系统</title>
 	<meta name="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link type="text/css" href="/sys/css/login.css" rel="stylesheet" />
+    <link type="text/css" href="/static/css/login.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div class="bg">			
-		</div>
-		<header class="nav">
-			<img src="/sys/img/logo.png" />
+		</div>		<header class="nav">
+			
 		</header>	
 			<div class="login">
 				<div class="content login_content ">
@@ -46,12 +45,12 @@
 			 </div>
 			</div>
 			<footer class="footer text" style="padding-top: 0;">
-				<div><p style="margin-top: 20px;">Copyright &copy; 2017-2017 <a href="http://www.zhensenzn.com"> 广东振森智能科技有限公司 </a> All rights reserved.
+				<div><p style="margin-top: 20px;">Copyright &copy; 2017 <a href="">xxx </a> All rights reserved.
 				</p>
 				</div>
 			</footer>
 	</body>
-	<script src="/sys/js/jquery/jquery-1.9.0.min.js"></script>
+	<script src="/static/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript">
 		var uname = localStorage.getItem("username");
 		var pward = localStorage.getItem("password");
