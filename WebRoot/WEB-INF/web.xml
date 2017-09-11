@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="ZSFrame" version="3.1">
-	<display-name>ZSFrame</display-name>
+	<display-name>_dpms</display-name>
 	<!--  -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
@@ -10,7 +10,6 @@
 		<display-name>contextConfigLocation</display-name>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
 
 	<!-- 初始化springmvc -->
 	<servlet>
@@ -22,7 +21,15 @@
 		<servlet-name>springmvc</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-	
+	<servlet>
+	  	<servlet-name>initServlet</servlet-name>
+	  	<servlet-class>com.zs.frame.services.InitServlet</servlet-class>
+	  	<load-on-startup>2</load-on-startup>
+  	</servlet>
+  	<servlet-mapping>
+	  	<servlet-name>initServlet</servlet-name>
+	  	<url-pattern>/initServlet</url-pattern>
+  	</servlet-mapping>
 	<!-- 保持session在数据到view层后关闭 -->
 	<filter>
 		<filter-name>openSessionInView</filter-name>

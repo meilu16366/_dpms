@@ -29,16 +29,17 @@
     <mvc:resources location="/sys/js/"  mapping="/sys/js/**" />
     <mvc:resources location="/sys/css/" mapping="/sys/css/**" />
     
+    <mvc:resources location="/user/component/" mapping="/user/component/**" />
+    <mvc:resources location="/user/js/" mapping="/user/js/**" />
+    <mvc:resources location="/user/js/" mapping="/user/js/**" />
+    
+    
+    
     <mvc:resources mapping="/favicon.ico" location="/favicon.ico" />
    	
 
     <!-- 对转向页面的路径解析。prefix：前缀， suffix：后缀 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/pages/" p:suffix=".jsp" />
-    <!-- 配置MultipartResolver 用于文件上传 使用spring的CommosMultipartResolver --> 
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"   >
-    		<property name="maxUploadSize" value="5400000"></property>
-    		<property name="defaultEncoding" value="UTF-8"></property>
-    </bean>
     <!-- 拦截器 -->
     <mvc:interceptors>
         <mvc:interceptor>
@@ -52,10 +53,18 @@
             <mvc:exclude-mapping path="/**/*.png" />
             <mvc:exclude-mapping path="/**/*.jpg" />
             <mvc:exclude-mapping path="/**/*.ico" />
+            <mvc:exclude-mapping path="/**/*.eot" />
+            <mvc:exclude-mapping path="/**/*.svg" />
+            <mvc:exclude-mapping path="/**/*.ttf" />
+            <mvc:exclude-mapping path="/**/*.woff" />
+            <mvc:exclude-mapping path="/**/*.html" />
+            <mvc:exclude-mapping path="/**/*.exe" />
+            <mvc:exclude-mapping path="/**/*.apk" />
+            <mvc:exclude-mapping path="/**/*.map" />
             <bean class="com.zs.frame.filters.LoginInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>
     
     <!-- 容器加载完成事件 -->
-    <bean class="com.zs.frame.services.InitListener"></bean>  
+    <!-- <bean class="com.zs.frame.services.InitListener"></bean>   -->
 </beans>
