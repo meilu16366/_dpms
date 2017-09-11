@@ -18,7 +18,7 @@
     
     <context:component-scan base-package="**.services"/>
     <context:property-placeholder location="classpath:jdbc.properties" />
-        <bean id="localDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+    <bean id="localDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
         <!-- 连接数据库的驱动 -->  
 	    <property name="driverClass" value="${jdbc.driver}" />
 	    <!-- 连接数据库的URL -->  
@@ -27,7 +27,8 @@
 	    <property name="user" value="${jdbc.username}" />
 	    <!-- 密码 -->  
 	    <property name="password" value="${jdbc.password}" />
-	  
+	    <!-- 连接丢失时间 10分钟-->
+	    <property name="maxIdleTime" value="600" />
 	    <!-- 连接池中保留的最小连接数，默认为：3 -->  
 	    <property name="minPoolSize" value="${jdbc.minidle}" />
 	    <!-- 连接池中保留的最大连接数。默认值: 15 -->  
@@ -54,6 +55,7 @@
         <property name="packagesToScan"><!-- 扫描实体所在的packge -->
         	<list>
         		<value>com.zs.frame.sys.beans</value>
+        		<value>com.monitor.base.beans</value>
         	</list>
         </property>
     </bean>
