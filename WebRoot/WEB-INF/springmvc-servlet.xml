@@ -20,23 +20,21 @@
             http://www.springframework.org/schema/context/spring-context-3.0.xsd">
             
 	<context:annotation-config />
-   	<tx:annotation-driven/>
+   	<tx:annotation-driven />
    	<mvc:annotation-driven />
 	<!-- 设置使用组件注解的类所在的package -->
     <context:component-scan base-package="**.controller"/>
     <!-- 后台静态资源 -->
-    <mvc:resources location="/sys/img/" mapping="/sys/img/**" />
-    <mvc:resources location="/sys/js/"  mapping="/sys/js/**" />
-    <mvc:resources location="/sys/css/" mapping="/sys/css/**" />
     
-    <mvc:resources location="/user/component/" mapping="/user/component/**" />
-    <mvc:resources location="/user/js/" mapping="/user/js/**" />
-    <mvc:resources location="/user/js/" mapping="/user/js/**" />
-    
-    
+    <mvc:resources location="/static/component/" mapping="/static/component/**" />
+    <mvc:resources location="/static/js/" mapping="/static/js/**" />
+    <mvc:resources location="/static/css/" mapping="/static/css/**" />
+    <mvc:resources location="/static/img/" mapping="/static/img/**" />
+    <mvc:resources location="/static/images/" mapping="/static/images/**" />
+    <mvc:resources location="/static/font/" mapping="/static/font/**" />
+    <mvc:resources location="/static/report/" mapping="/static/report/**" />
     
     <mvc:resources mapping="/favicon.ico" location="/favicon.ico" />
-   	
 
     <!-- 对转向页面的路径解析。prefix：前缀， suffix：后缀 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/pages/" p:suffix=".jsp" />
@@ -61,10 +59,9 @@
             <mvc:exclude-mapping path="/**/*.exe" />
             <mvc:exclude-mapping path="/**/*.apk" />
             <mvc:exclude-mapping path="/**/*.map" />
-            <bean class="com.zs.frame.filters.LoginInterceptor"></bean>
+            <bean class="com.kx.frame.filters.LoginInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>
     
-    <!-- 容器加载完成事件 -->
-    <!-- <bean class="com.zs.frame.services.InitListener"></bean>   -->
+
 </beans>

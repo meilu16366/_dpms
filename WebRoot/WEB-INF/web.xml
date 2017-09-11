@@ -23,7 +23,7 @@
 	</servlet-mapping>
 	<servlet>
 	  	<servlet-name>initServlet</servlet-name>
-	  	<servlet-class>com.zs.frame.services.InitServlet</servlet-class>
+	  	<servlet-class>com.kx.frame.services.InitServlet</servlet-class>
 	  	<load-on-startup>2</load-on-startup>
   	</servlet>
   	<servlet-mapping>
@@ -65,7 +65,7 @@
 
 	<!-- session监听 -->
 	<listener>
-		<listener-class>com.zs.frame.filters.HttpSessionListener</listener-class>
+		<listener-class>com.kx.frame.filters.HttpSessionListener</listener-class>
 	</listener>
 	
 	<welcome-file-list>
