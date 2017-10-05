@@ -2310,8 +2310,9 @@ $(".sid-rit").parent().on("click",function(){
 	}else{
 		$(this).find(".sid-rit").attr("class","icon-chevron-down sid-rit");
 	}
-	
+
 });
 function logout(){
 	location.href = "/logout";
 }
+
