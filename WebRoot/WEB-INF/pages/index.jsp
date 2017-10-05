@@ -219,7 +219,7 @@
 					<div class="f-title"><span>实时监测</span></div>
 					<ul class="nav nav-tabs nav-stacked main-menu">
 						<li class="menu-click active">
-							<a href="/realdata/page" target="content">
+							<a href="/realdata/home/page" target="content">
 								<img src="/static/images/home.png" class="t-icon">
 								<span class="hidden-tablet">总&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;览</span>
 							</a>
@@ -231,7 +231,7 @@
 							</a>
 						</li>
 						<li class="menu-click">
-							<a href="#">
+							<a href="/realdata/inverter/page" target="content">
 								<img src="/static/images/mnt.png" class="t-icon">
 								<span class="hidden-tablet">实时监控</span>
 							</a>
@@ -386,7 +386,7 @@
 			
 			<!-- start: Content -->
 			<div class="span10 h100" style="margin: 0;padding-top: 50px;">
-			<iframe src="/realdata/page" name="content" id="iframe" style="border: 0;width: 100%;height: 100%;">
+			<iframe src="/realdata/home/page" name="content" id="iframe" style="border: 0;width: 100%;height: 100%;">
 			</iframe>
 
 			</div>

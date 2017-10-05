@@ -4,12 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/realdata/home")
-public class HomeDataController {
-
+@RequestMapping("/realdata/inverter")
+public class RealInverterController {
+	
 	@RequestMapping("/page")
 	public String page() {
-		return "/realdata/homepage";
+		return "/realdata/realinverter"; 
 	}
-	
 }
