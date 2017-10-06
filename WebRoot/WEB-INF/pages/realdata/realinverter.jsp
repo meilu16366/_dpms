@@ -11,10 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="/static/js/bootstrap/css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="/static/css/mstyle.css"/>
-		
+		<link rel="stylesheet" type="text/css" href="/static/js/easyUI/css/easyui.css"/>
 		<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="/static/js/bootstrap/bootstrap.min.js"></script>
-		<script type="text/javascript" src="/static/js/echarts/echarts.min.js"></script>
 		<style type="text/css">
 			html,body{
 				height: 100%;
@@ -199,7 +198,25 @@
 				</div>
 			</div>
 		</div>
+		<div class="container-fluid b-white" >
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label>逆变器名称</label>
+					<input type="text" class="form-control" name="name">
+				</div>
+				<div class="form-group">
+					<label>位置</label>
+					<select class="form-control" name="place">
+						<option value=""></option>
+						<option value="山西">山西</option>
+					</select>
+				</div>
+				<button type="submit" class="btn btn-default">查询</button>
+				<button type="submit" class="btn btn-default">还原</button>
+			</form>
+		</div>
 	</body>
+	<script type="text/javascript" src="/static/js/easyUI/jquery.easyui.min.js"></script>
 	<script src="/static/js/realdata/realinverter.js"></script>
 	<script>
 	
