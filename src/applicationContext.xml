@@ -83,6 +83,9 @@
                 <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean">
                     <property name="name" value="inverterState"/><!-- 点表缓存 -->
                 </bean>
+                <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean">
+                    <property name="name" value="infos"/><!-- 基础数据 -->
+                </bean>
             </set>
         </property>
     </bean>

@@ -154,4 +154,9 @@ public class BaseDaoImpl<T> implements IBaseDao<T> {
 	public Query getHqlQuery(String hql) {
 		return getSession().createQuery(hql);
 	}
+
+	@Override
+	public List<T> find(Class<T> clazz) {
+		return getSession().createCriteria(clazz).list();
+	}
 }

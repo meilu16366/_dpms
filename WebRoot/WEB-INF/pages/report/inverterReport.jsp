@@ -16,9 +16,10 @@
 		<script type="text/javascript" src="/static/js/bootstrap/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/static/js/easyUI/jquery.easyui.min.js"></script>
 	</head>
-	<body style="background: #F4F4F4">
+	<body>
+	<div class="container-fluid" >
 	<form action="/user/psinfo/list" method="post" class="form-inline">
-		<div style="padding: 10px;">
+		<div>
 			<div class="form-group">
 			    <label>逆变器名称</label>
 			    <input type="text" class="form-control input-sm" name="psname" value="${psname}">
@@ -63,6 +64,7 @@
 			
 		</div>
 	</form>
+	</div>
 	</body>
 	<script src="/static/js/dealWith/dealWith.js"></script>
 	<script src="/static/js/dealWith/pagination.js"></script>

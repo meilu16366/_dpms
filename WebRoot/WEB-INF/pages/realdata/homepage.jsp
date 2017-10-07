@@ -154,7 +154,14 @@
 			text-align: right;
 			font-size: 16px;
 			}
-			
+			.avol-head{
+				display: inline-block;
+				height: 8px;
+				width: 8px;
+				border-radius: 4px;
+				margin-bottom: 1px;
+				margin-right: 5px;
+			}
 			@media (max-width: 1300px){
 				dd span{
 					font-size: 20px;
@@ -184,8 +191,8 @@
 	<body>
 		<div class="container-fluid b-white" style="margin-top: 0;">
 			<div class="row head-p">
-				<div class="col-xs-6 head-tile"><span>电量数据</span></div>
-				<div class="col-xs-6 head-tile"><span>环境数据</span></div>
+				<div class="col-xs-6 head-tile"><span class="avol-head" style="border: 2px solid #14c972;"></span><span>电量数据</span></div>
+				<div class="col-xs-6 head-tile"><span class="avol-head" style="border: 2px solid #f2900f;"></span><span>环境数据</span></div>
 			</div>
 			<div class="row">
 	  			<ul class="home-head">

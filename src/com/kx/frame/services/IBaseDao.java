@@ -97,4 +97,11 @@ public interface IBaseDao<T> {
 	 * @return
 	 */
 	Query getHqlQuery(String hql);
+	
+	/**
+	 * 查询
+	 * @param clazz
+	 * @return
+	 */
+	List<T> find(Class<T> clazz);
 }

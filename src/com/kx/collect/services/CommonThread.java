@@ -52,6 +52,10 @@ public class CommonThread implements Runnable {
 				//逆变器当前总直流功率
 				String nbqdcpowerd = "1_NBQ_YC_.*_"+CollectDef.INVERTER_NOWDCPOWER;
 				dealPSData(nbqdcpowerd,CollectDef.INVERTER_DCPOWER);
+				//逆变器总发电量
+				String nbqtotalcapid = "1_NBQ_YC_.*"+CollectDef.INVERTER_NOWTOTALCAP;
+				dealPSData(nbqtotalcapid,CollectDef.INVERTER_TOTALCAP);
+				
 			}catch(Exception e) {
 				logger.error("综合数据处理线程出错！");
 				e.printStackTrace();

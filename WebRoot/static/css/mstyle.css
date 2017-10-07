@@ -3,3 +3,21 @@ body{
 	height:100%;
 	font-family: "Microsoft YaHei";
 }
+
+
+.form-inline .input-text,.form-inline .input-select{
+	height: 24px;
+	width: 114px;
+}
+.form-inline .input-select{
+	padding-top: 0;padding-bottom: 0;
+}
+.search-bar{
+	padding: 10px;
+}
+.form-group{margin: 0 10px;}
+.form-inline .search-bnt{
+	width: 53px;
+	height: 24px;
+	line-height: 0;
+}
