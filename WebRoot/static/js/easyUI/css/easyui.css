@@ -109,7 +109,7 @@
 }
 .panel-header,
 .panel-body {
-  border-color: #95B8E7;
+  border-color: rgb(229,229,229);
 }
 .panel-header {
   background-color: #E0ECFF;
@@ -1717,15 +1717,17 @@
   float: left;
   width: 10000px;
 }
-.datagrid-header-row,
-.datagrid-row {
-  height: 25px;
+.datagrid-header-row {
+  height: 35px;/**原高度25px*/
+}
+.datagrid-row{
+	height: 40px;/**原高度25px*/
 }
 .datagrid-header td,
 .datagrid-body td,
 .datagrid-footer td {
   border-width: 0 1px 1px 0;
-  border-style: dotted;
+  border-style: solid;
   margin: 0;
   padding: 0;
 }
@@ -1892,7 +1894,7 @@
 .datagrid-header td,
 .datagrid-body td,
 .datagrid-footer td {
-  border-color: #ccc;
+  border-color: rgb(229,229,229);
 }
 .datagrid-htable,
 .datagrid-btable,

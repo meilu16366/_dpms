@@ -1,12 +1,13 @@
 package com.kx.frame.def;
 
+import org.apache.commons.lang.math.NumberUtils;
+
 import com.kx.frame.sys.beans.Parameter;
 import com.kx.frame.utils.SysParamUtil;
 
 public interface CollectDef {
-	
 	/**组串逆变器电流配置*/
-	String INVERTER_DCI = "inverter.dci";
+	int INVERTER_DCI = NumberUtils.toInt(SysParamUtil.getParameter("inverter.dci").getValue(),8);
 	/**辐射开始时间*/
 	String RADIATION_START = "radiation.start";
 	/**辐射结束时间*/
@@ -17,6 +18,8 @@ public interface CollectDef {
 	String ACPOW_DATA ="ACPOWER.data";
 	/**事件类型选择*/
 	String EVENTTYPE ="eventType";
+	/**组串逆变器支路偏低阈值*/
+	double INVERTER_DCI_LOW = NumberUtils.toDouble(SysParamUtil.getParameter("inverter.dcilow").getValue(),0.8);
 	
 	/**节能减排CO2系数/t*/
 	double DE_CO2 = 0.000997;
@@ -76,9 +79,12 @@ public interface CollectDef {
 	/**状态 1_NBQ_YC_1_state*/
 	String INVERTER_STATE = "InverterState";
 	
+	String INVERTER_TOTALCAP = "Inverter_totalCap";
 	
 	/**日发电量*/
 	String INVERTER_NOWDAYCAP=SysParamUtil.getParameter("inverter.daycap").getValue();
+	/**总发电量*/
+	String INVERTER_NOWTOTALCAP=SysParamUtil.getParameter("inverter.totalcap").getValue();
 	/**交流功率*/
 	String INVERTER_NOWACPOWER=SysParamUtil.getParameter("inverter.acpower").getValue();
 	/**直流功率*/

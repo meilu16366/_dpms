@@ -1,8 +1,10 @@
 package com.kx.cache.services;
 
 import java.lang.reflect.Field;
+import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.apache.poi.ss.formula.functions.T;
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
@@ -47,6 +49,10 @@ public class Cache {
 			}
 		}
 		return m;
+	}
+	@Cacheable(value="infos")
+	public <T> List<T> getInfos(Class<T> clazz){
+		return daoSrv.find(clazz);
 	}
 	
 	/**
