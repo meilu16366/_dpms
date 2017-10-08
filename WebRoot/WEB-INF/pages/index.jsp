@@ -7,7 +7,7 @@
 	
 	<!-- start: Meta --> 
 	<meta charset="utf-8">
-	<title></title>
+	<title>光伏电站监控系统</title>
 	<meta name="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<!-- end: Meta -->
@@ -248,7 +248,7 @@
 					<div class="f-title"><span>图表分析</span></div>
 					<ul class="nav nav-tabs nav-stacked main-menu">
 						<li class="menu-click">
-						<a href="#">
+						<a href="/da/event/page" target="content">
 							<img src="/static/images/event-mn.png" class="t-icon">
 							<span class="hidden-tablet">事件管理</span>
 						</a>

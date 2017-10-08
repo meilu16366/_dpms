@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="/WEB-INF/tlds/c.tld" %>
 <%@ taglib prefix="fmt" uri="/WEB-INF/tlds/fmt.tld" %>
-
+<%@ page import="com.kx.frame.def.KXFrameDef" %>
 <!DOCTYPE html> 
 <html lang="zh-CN">
 	<head>
@@ -66,10 +66,7 @@
 			.home-head dd{
 				height: 47px;
 			}
-			.b-white{
-				background-color: white;
-				margin: 20px;
-			}
+			
 			.home-head li{
 				border-right: 2px solid #e5e5e5;
 			}
@@ -162,7 +159,7 @@
 				margin-bottom: 1px;
 				margin-right: 5px;
 			}
-			@media (max-width: 1300px){
+			@media (max-width: 1400px){
 				dd span{
 					font-size: 20px;
 				}
@@ -199,7 +196,7 @@
 	  				<li>
 	  				<img src="/static/images/power.png" >
 	  				<dl>
-	  					<dd><span>0.00</span></dd>
+	  					<dd><span id="acpower">0.00</span></dd>
 	  					<dd>当前功率(kW)</dd>
 	  				</dl>
 	  				</li>
@@ -207,7 +204,7 @@
 	  				<li>
 	  				<img src="/static/images/daycap.png"  >
 	  				<dl>
-	  					<dd><span>0.00</span></dd>
+	  					<dd><span id="daycap">0.00</span></dd>
 	  					<dd>日发电量(kWh)</dd>
 	  				</dl>
 	  				</li>
@@ -215,7 +212,7 @@
 	  				<li>
 	  				<img src="/static/images/monthcap.png"  >
 	  				<dl>
-	  					<dd><span>0.00</span></dd>
+	  					<dd><span id="monthcap">0.00</span></dd>
 	  					<dd>月发电量(kWh)</dd>
 	  				</dl>
 	  				</li>
@@ -223,7 +220,7 @@
 	  				<li>
 	  				<img src="/static/images/totalcap.png"  >
 	  				<dl>
-	  					<dd><span>0.00</span></dd>
+	  					<dd><span id="totalcap">0.00</span></dd>
 	  					<dd>总发电量(kWh)</dd>
 	  				</dl>
 	  				</li>
@@ -231,15 +228,15 @@
 	  				<li>
 	  				<img src="/static/images/radian.png"  >
 	  				<dl>
-	  					<dd><span>0.00</span></dd>
-	  					<dd>瞬时辐射(W/m²)</dd>
+	  					<dd><span id="ridian">0.00</span></dd>
+	  					<dd>辐射强度(W/m²)</dd>
 	  				</dl>
 	  				</li>
 	  				
 	  				<li>
 	  				<img src="/static/images/radian.png"  >
 	  				<dl>
-	  					<dd><span>0.00</span></dd>
+	  					<dd><span id="ridianq">0.00</span></dd>
 	  					<dd>日辐射量(MJ/m²)</dd>
 	  				</dl>
 	  				</li>
@@ -284,31 +281,31 @@
   								<li> 
   									<span class="rect-state normal-run"></span>
   									<span>正常运行</span>
-  									<span style="color:#d4534f;">120</span>
+  									<span style="color:#d4534f;" id="normal_run">0</span>
   									<span>台</span>
   								</li>
   								<li>
   									<span class="rect-state normal-stop"></span>
   									<span>正常停机</span>
-  									<span style="color:#406f8f;">120</span>
+  									<span style="color:#406f8f;" id="normal_stop">0</span>
   									<span>台</span>
   								</li>
   								<li>
   									<span class="rect-state error-run"></span>
   									<span>告警运行</span>
-  									<span style="color:#61a0a8;">120</span>
+  									<span style="color:#61a0a8;" id="error_run">0</span>
   									<span>台</span>
   								</li>
   								<li>
   									<span class="rect-state error-stop"></span>
   									<span>故障停机</span>
-  									<span style="color:#d48265;">120</span>
+  									<span style="color:#d48265;" id="error_stop">0</span>
   									<span>台</span>
   								</li>
   								<li>
   									<span class="rect-state bread"></span>
   									<span>通讯中断</span>
-  									<span style="color:#91c7ea;">120</span>
+  									<span style="color:#91c7ea;" id="bread">0</span>
   									<span>台</span>
   								</li>
   								
@@ -328,7 +325,7 @@
 				  				<li>
 				  				<img src="/static/images/co2.png" style="margin-top: 16%;">
 				  				<dl>
-				  					<dd><span style="color: #f39e2f;">0.00</span></dd>
+				  					<dd><span style="color: #f39e2f;" id="co2">0.00</span></dd>
 				  					<dd>累计减排(t)</dd>
 				  				</dl>
 				  				<div style="clear: both;"></div>
@@ -337,8 +334,8 @@
 				  				<li>
 				  				<img src="/static/images/coal.png" style="margin-top: 11%;">
 				  				<dl>
-				  					<dd><span style="color: #f67171;">0.00</span></dd>
-				  					<dd>累计减排(t)</dd>
+				  					<dd><span style="color: #f67171;" id="coal">0.00</span></dd>
+				  					<dd>节约标煤(t)</dd>
 				  				</dl>
 				  				<div style="clear: both;"></div>
 				  				</li>
@@ -346,7 +343,7 @@
 				  				<li>
 				  				<img src="/static/images/so2.png" style="margin-top: 18%;">
 				  				<dl>
-				  					<dd><span style="color: #1aa2da;">0.00</span></dd>
+				  					<dd><span style="color: #1aa2da;" id="so2">0.00</span></dd>
 				  					<dd>二氧化硫(t)</dd>
 				  				</dl>
 				  				<div style="clear: both;"></div>
@@ -355,7 +352,7 @@
 				  				<li>
 				  				<img src="/static/images/cos.png" style="margin-top: 13%;">
 				  				<dl>
-				  					<dd><span style="color: #25cbe9;">0.00</span></dd>
+				  					<dd><span style="color: #25cbe9;" id="cox">0.00</span></dd>
 				  					<dd>碳氧化物(t)</dd>
 				  				</dl>
 				  				<div style="clear: both;"></div>
@@ -374,9 +371,9 @@
   					</div>
   					<div class="row">
   						<div class="col-xs-12 ps-info" >
-  							<span>演示光伏电站</span>
+  							<span><%=KXFrameDef.PSNAME %></span>
   							<span>&nbsp;&nbsp;投产日期：</span>
-  							<span>2017-08-08</span>
+  							<span><%=KXFrameDef.RUN_DATE %></span>
   						</div>
   					</div>
   					<div class="row">

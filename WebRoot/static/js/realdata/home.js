@@ -1,15 +1,75 @@
 
-
+var refreshtime = 30000;
+var charts = [];
 $(function (){
-	inverterState();
-	radian();
-	capChart();
+	refresh();
 })
+function refresh(){
+	
+	ajaxRidian();
+	ajaxinverterState();
+	ajaxcapChart();
+	totaldata();
+	setTimeout(refresh, refreshtime);
+}
+
+window.onresize = function() {
+	charts[0].resize();
+	charts[1].resize();
+	charts[2].resize();
+}
+
+//总数据
+function totaldata(){
+    $.ajax({
+        type: "post",
+        url: "/realdata/home/data",
+        dataType: "json", //返回数据形式为json
+        data: {},
+        success: function(data){
+        	$("#acpower").text(data.acpower.toFixed(2));
+        	$("#daycap").text(data.daycap.toFixed(2));
+        	$("#monthcap").text(data.monthcap.toFixed(2));
+        	$("#totalcap").text(data.totalcap.toFixed(2));
+        	$("#ridian").text(data.ridian.toFixed(2));
+        	$("#ridianq").text(data.ridianq.toFixed(2));
+        	
+        	$("#co2").text(data.co2.toFixed(2));
+        	$("#coal").text(data.coal.toFixed(2));
+        	$("#so2").text(data.so2.toFixed(2));
+        	$("#cox").text(data.cox.toFixed(2));
+        	
+        }
+    })
+	
+	
+}
+
 
 //逆变器状态
-function inverterState(){
-	var total = 55;
-	var data = [20,10,10,10,5];
+
+function ajaxinverterState(){
+    $.ajax({
+        type: "post",
+        url: "/realdata/inverter/data",
+        dataType: "json", //返回数据形式为json
+        data: {},
+        success: inverterState
+    })
+	
+	
+}
+
+
+function inverterState(datad){
+	var total = datad.size;
+	var data = datad.states;
+	data.shift();
+	$("#normal_run").text(data[0]);
+	$("#normal_stop").text(data[1]);
+	$("#error_run").text(data[2]);
+	$("#error_stop").text(data[3]);
+	$("#bread").text(data[4]);
 	var bold = 6;
 	placeHolderStyle = {
 		    normal: {
@@ -39,6 +99,7 @@ function inverterState(){
 		        ['30%','29%'],
 		        ['15%','14%']
 		        ];
+		wd.reverse();
 		var option = {
 		    backgroundColor: '#fff',
 		    legend: [{
@@ -204,15 +265,45 @@ function inverterState(){
 		        }]
 		    }]
 		};
-		var mychart = echarts.init(document.getElementById('statecharts'));
-		mychart.setOption(option);
+		if(!charts[0]){
+			var mychart = echarts.init(document.getElementById('statecharts'));
+			charts[0] = mychart;
+		}
+		charts[0].clear();
+		charts[0].setOption(option);
 }
 
+
+function ajaxRidian(){
+    $.ajax({
+        type: "post",
+        url: "/realdata/home/radian",
+        dataType: "json", //返回数据形式为json
+        data: {},
+        success: radian
+    })
+	
+}
+function isallnull(data){
+	var bol = true;
+	$.each(data,function(){
+		if(this!="-"){
+			bol = false;
+			return false;
+		}
+	})
+	if(bol){
+		data[0] = 0;
+	}
+	return bol;
+}
 //日负荷曲线
-function radian(){
-	var xdata = ['13:00', '13:05', '13:10', '13:15', '13:20', '13:25', '13:30', '13:35', '13:40', '13:45', '13:50', '13:55'];
-	var ydata1 = [120, 110, 125, 145, 122, 165, 122, 220, 182, 191, 134, 150];
-	var ydata2 = [220, 182, 191, 134, 150, 120, 110, 125, 145, 122, 165, 122];
+function radian(data){
+	var xdata = data[0];
+	var ydata1 = data[1];
+	var ydata2 = data[2];
+	isallnull(ydata1);
+	isallnull(ydata2);
 	var option = {
 			title: {
 		        text: '日负荷曲线',
@@ -404,19 +495,28 @@ function radian(){
 		    } ]
 		};
 	
-	var mychart = echarts.init(document.getElementById('rcharts'));
-	mychart.setOption(option);
+	if(!charts[1]){
+		var mychart = echarts.init(document.getElementById('rcharts'));
+		charts[1] = mychart;
+	}
+	charts[1].clear();
+	charts[1].setOption(option);
 }
 
-function capChart (){
-	var ydata = [10, 52, 200, 334, 390, 330, 220];
-	var xdata = (function(){
-        var arr = [];
-        for(var a=1;a<=15;a++){
-            arr.push(a+"日");
-        }
-        return arr;
-     }());
+function ajaxcapChart(){
+    $.ajax({
+        type: "post",
+        url: "/realdata/home/monthcap",
+        dataType: "json", //返回数据形式为json
+        data: {},
+        success: capChart
+    })
+}
+
+
+function capChart (data){
+	var xdata = data[0];
+	var ydata = data[1];
 	var option = {
 	    title: {
 			        text: '发电量统计',
@@ -495,6 +595,10 @@ function capChart (){
 	        }
 	    ]
 	};
-	var mychart = echarts.init(document.getElementById('capchart'));
-	mychart.setOption(option);
+	if(!charts[2]){
+		var mychart = echarts.init(document.getElementById('capchart'));
+		charts[2] = mychart;
+	}
+	charts[2].clear();
+	charts[2].setOption(option);
 }

@@ -174,8 +174,9 @@ CREATE TABLE `da_event` (
   `sure` char(1) DEFAULT NULL,
   `issoe` char(1) DEFAULT NULL,
   `mid` varchar(30) DEFAULT NULL,
+  `elevel` int(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -184,6 +185,7 @@ CREATE TABLE `da_event` (
 
 LOCK TABLES `da_event` WRITE;
 /*!40000 ALTER TABLE `da_event` DISABLE KEYS */;
+INSERT INTO `da_event` VALUES (1,1,'1','2017-10-08 12:12:33','1#逆变器',2,'adsf',1,'Y','N',NULL,1),(2,1,'1','2017-10-08 12:12:33','1#逆变器',2,'ds',1,'Y','Y',NULL,1),(3,1,'1','2017-10-08 12:12:33','1#逆变器',2,'sdf',0,'Y','Y',NULL,1),(4,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','Y',NULL,1),(5,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','Y',NULL,1),(6,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','N',NULL,1),(7,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','N',NULL,1),(8,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','N',NULL,1),(9,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','N',NULL,1),(10,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','N',NULL,1),(11,1,'1','2017-10-08 12:12:33','1#逆变器',2,'d',0,'Y','N',NULL,1);
 /*!40000 ALTER TABLE `da_event` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -295,7 +297,7 @@ CREATE TABLE `da_psquotaday` (
   `coal` decimal(10,4) DEFAULT NULL,
   `totalRadia` decimal(10,4) DEFAULT NULL,
   PRIMARY KEY (`psdayid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -304,6 +306,7 @@ CREATE TABLE `da_psquotaday` (
 
 LOCK TABLES `da_psquotaday` WRITE;
 /*!40000 ALTER TABLE `da_psquotaday` DISABLE KEYS */;
+INSERT INTO `da_psquotaday` VALUES (1,'2017-10-01',111.0000,222.0000,333.0000,3.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(2,'2017-10-02',44.0000,44.0000,44.0000,44.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(3,'2017-10-03',65.0000,76.0000,98.0000,90.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `da_psquotaday` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -415,7 +418,7 @@ CREATE TABLE `f_inverter` (
   `remark` varchar(500) DEFAULT NULL,
   `startCap` decimal(10,4) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -424,7 +427,7 @@ CREATE TABLE `f_inverter` (
 
 LOCK TABLES `f_inverter` WRITE;
 /*!40000 ALTER TABLE `f_inverter` DISABLE KEYS */;
-INSERT INTO `f_inverter` VALUES (1,'1#','YG1',50.0000,'1','AA',1,'DD',NULL,NULL);
+INSERT INTO `f_inverter` VALUES (1,'1#逆变器','YG1',500.0000,'1','AA',1,'DD',NULL,NULL),(2,'2#逆变器','YG1',500.0000,'1','BB',2,'DD',NULL,NULL),(3,'3#逆变器','YG1',500.0000,'1','CC',3,'DD',NULL,NULL),(4,'4#逆变器','YG1',500.0000,'1','CC',4,'DD',NULL,NULL);
 /*!40000 ALTER TABLE `f_inverter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -647,7 +650,7 @@ CREATE TABLE `sys_param` (
   `description` varchar(500) DEFAULT NULL,
   `remark` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`paramid`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -656,7 +659,7 @@ CREATE TABLE `sys_param` (
 
 LOCK TABLES `sys_param` WRITE;
 /*!40000 ALTER TABLE `sys_param` DISABLE KEYS */;
-INSERT INTO `sys_param` VALUES (1,'pageSize','15',NULL,NULL,'分页数',NULL),(2,'inverter.dci','8','null','null','组串逆变器最大支路数','null'),(3,'radiation.start','06:00:00','','','辐射开始时间','WERQ'),(4,'radiation.end','21:00:00','',NULL,'辐射结束时间',NULL),(5,'MEI.cycle','5',NULL,NULL,'气象仪采集间隔（分钟）',NULL),(6,'ACPOWER.data','nbq',NULL,NULL,'并网点交流功率',NULL),(7,'now.radian','1_QXY_YC_1_BevelRadiation',NULL,NULL,'瞬时辐射强度取值测点',NULL),(8,'total.radian','1_QXY_YC_1_TotalRadiation',NULL,NULL,'累计辐射量取值测点',NULL),(9,'m.temperature','1_QXY_YC_1_ModeTemp',NULL,NULL,'组件温度',NULL),(10,'h.temperature','1_QXY_YC_1_Temperature',NULL,NULL,'环境温度',NULL),(11,'inverter.daycap','DayCapacity',NULL,NULL,'逆变器实时日发电量（_id字段）',NULL),(12,'inverter.acpower','ACPower',NULL,NULL,'逆变器实时交流功率（_id字段）',NULL),(13,'inverter.dcpower','DCPower',NULL,NULL,'逆变器实时直流功率（_id字段）',NULL),(14,'inverter.branch','DCI',NULL,NULL,'逆变器的直流（或交流）支路',NULL),(15,'EMI.realradian','120',NULL,NULL,'瞬时辐射量比较值',NULL),(16,'EMI.radianpercent','0.6',NULL,NULL,'环境监测仪辐射量平均值的百分比（不能为0）',NULL),(17,'equipment','NBQ',NULL,NULL,'发电量选择（NBQ,BWD,DB）',NULL),(18,'DAYCAP','nbqdaycap',NULL,NULL,'累计发电量设备选择（nbqdaycap,bwdaycap,dbdaycap）',NULL),(19,'ps.daycap.type','NBQ','DayCapacity',NULL,'电站累计发电量获取方式',NULL),(20,'ps.acpower.type','NBQ','ACPower',NULL,'电站累计交流功率获取方式',NULL),(21,'ps.dcpower.type','NBQ','DCPower',NULL,'电站累计直流功率获取方式',NULL),(22,'sys.title','光伏电站监控系统',NULL,NULL,'系统名称',NULL);
+INSERT INTO `sys_param` VALUES (1,'pageSize','15',NULL,NULL,'分页数',NULL),(2,'inverter.dci','8','null','null','组串逆变器最大支路数','null'),(3,'radiation.start','06:00:00','','','辐射开始时间','WERQ'),(4,'radiation.end','21:00:00','',NULL,'辐射结束时间',NULL),(5,'MEI.cycle','5',NULL,NULL,'气象仪采集间隔（分钟）',NULL),(6,'ACPOWER.data','da_inverter','ACPower',NULL,'交流功率取值方式',NULL),(7,'now.radian','1_QXY_YC_1_BevelRadiation',NULL,NULL,'瞬时辐射强度取值测点',NULL),(8,'total.radian','1_QXY_YC_1_TotalRadiation',NULL,NULL,'累计辐射量取值测点',NULL),(9,'m.temperature','1_QXY_YC_1_ModeTemp',NULL,NULL,'组件温度',NULL),(10,'h.temperature','1_QXY_YC_1_Temperature',NULL,NULL,'环境温度',NULL),(11,'inverter.daycap','DayCapacity',NULL,NULL,'逆变器实时日发电量（_id字段）',NULL),(12,'inverter.acpower','ACPower',NULL,NULL,'逆变器实时交流功率（_id字段）',NULL),(13,'inverter.dcpower','DCPower',NULL,NULL,'逆变器实时直流功率（_id字段）',NULL),(14,'inverter.branch','DCI',NULL,NULL,'逆变器的直流（或交流）支路',NULL),(15,'EMI.realradian','120',NULL,NULL,'瞬时辐射量比较值',NULL),(16,'EMI.radianpercent','0.6',NULL,NULL,'环境监测仪辐射量平均值的百分比（不能为0）',NULL),(17,'equipment','NBQ',NULL,NULL,'发电量选择（NBQ,BWD,DB）',NULL),(18,'DAYCAP','nbqdaycap',NULL,NULL,'累计发电量设备选择（nbqdaycap,bwdaycap,dbdaycap）',NULL),(19,'ps.daycap.type','NBQ','DayCapacity',NULL,'电站累计发电量获取方式',NULL),(20,'ps.acpower.type','NBQ','ACPower',NULL,'电站累计交流功率获取方式',NULL),(21,'ps.dcpower.type','NBQ','DCPower',NULL,'电站累计直流功率获取方式',NULL),(22,'sys.title','光伏电站监控系统',NULL,NULL,'系统名称',NULL),(23,'inverter.totalcap','TotalCapacity',NULL,NULL,'逆变器实时总发电量（_id字段）',NULL),(24,'inverter.dcilow','0.8',NULL,NULL,'支路偏低阈值',NULL),(26,'ps.info','演示电站1','5','2017-06-30','value:电站名称,option1:电站容量,option2:投产日期',NULL);
 /*!40000 ALTER TABLE `sys_param` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -676,7 +679,7 @@ CREATE TABLE `sys_taskscheduler` (
   `disabled` char(1) DEFAULT 'N',
   `remark` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`taskid`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -685,7 +688,7 @@ CREATE TABLE `sys_taskscheduler` (
 
 LOCK TABLES `sys_taskscheduler` WRITE;
 /*!40000 ALTER TABLE `sys_taskscheduler` DISABLE KEYS */;
-INSERT INTO `sys_taskscheduler` VALUES (1,'JB1','日报','com.zs.frame.job.DayQuotaJob','0 0 1 * * ?','N',NULL);
+INSERT INTO `sys_taskscheduler` VALUES (1,'JB1','日报','com.kx.frame.job.DayQuotaJob','0 0 1 * * ?','N',NULL);
 /*!40000 ALTER TABLE `sys_taskscheduler` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -731,4 +734,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-09-30 15:26:12
+-- Dump completed on 2017-10-08 18:23:31

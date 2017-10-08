@@ -9,9 +9,9 @@ public interface CollectDef {
 	/**组串逆变器电流配置*/
 	int INVERTER_DCI = NumberUtils.toInt(SysParamUtil.getParameter("inverter.dci").getValue(),8);
 	/**辐射开始时间*/
-	String RADIATION_START = "radiation.start";
+	String RADIATION_START = SysParamUtil.getParameter("radiation.start").getValue();
 	/**辐射结束时间*/
-	String RADIATION_END = "radiation.end";
+	String RADIATION_END = SysParamUtil.getParameter("radiation.end").getValue();
 	/**气象仪采集间隔*/
 	String EMI_CYCLE = "EMI.cycle";
 	/**功率查询选择*/
@@ -25,7 +25,10 @@ public interface CollectDef {
 	double DE_CO2 = 0.000997;
 	/**节能减排标准煤系数/t*/
 	double DE_COAL = 0.0004;
-	
+	/**SO2*/
+	double DE_SO2 = 0.03/1000;
+	/**碳氧化合物*/
+	double DE_C0X = 0.015/1000;
 	//发电量
 	/**电站累计日发电量*/
 	Parameter PS_DAYCAP_TYPE=SysParamUtil.getParameter("ps.daycap.type"); 

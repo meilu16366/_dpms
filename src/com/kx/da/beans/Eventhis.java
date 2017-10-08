@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.Type;
 @Entity
-@Table(name="da_eventhis")
+@Table(name="da_event")
 public class Eventhis implements Serializable {
 	
 	private static final long serialVersionUID= 1L; 

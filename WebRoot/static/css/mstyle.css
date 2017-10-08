@@ -1,13 +1,23 @@
-body{
+html,body{
 	width:100%;
 	height:100%;
 	font-family: "Microsoft YaHei";
+	background-color: #e5e5e5;
 }
-
-
+body{
+	padding-top: 20px;
+}
+.b-white{
+	background-color: white;
+	margin: 0 20px 20px 20px;
+}
 .form-inline .input-text,.form-inline .input-select{
 	height: 24px;
 	width: 114px;
+}
+.form-inline .input-time{
+	height:24px;
+	width: 141px;
 }
 .form-inline .input-select{
 	padding-top: 0;padding-bottom: 0;
@@ -15,9 +25,80 @@ body{
 .search-bar{
 	padding: 10px;
 }
+.datagrid-header .datagrid-cell span {
+	  font-size: 13px;
+	  font-weight: 700;
+	}
 .form-group{margin: 0 10px;}
+
 .form-inline .search-bnt{
-	width: 53px;
+	/* width: 53px; */
 	height: 24px;
 	line-height: 0;
+}
+.form-inline .da-searchcolor{
+	color:white;
+	background-color: rgb(71,146,299);
+}
+.datagrid-cell,
+.datagrid-cell-group,
+.datagrid-header-rownumber,
+.datagrid-cell-rownumber{
+	font-size: 13px;
+}
+.datagrid-header-row {
+  height: 35px;/**原高度25px*/
+}
+.datagrid-row{
+	height: 40px;/**原高度25px*/
+}
+.searchcolor{background-color: #3ab1d5;}
+.searchcolor:focus{
+	color:white;
+	background-color: #3ab1d5;
+}
+.searchcolor:hover{
+	color:white;
+	background-color: #3cb3d7;
+}
+.replycolor{background-color: #a28fd8;}
+.replycolor:focus{
+	background-color: #a28fd8;
+	color: white;
+}
+.replycolor:hover{
+	background-color: #a48fda;
+	color: white;
+}
+.replycolor:checked{
+	color: white;
+}
+.searchcolor,.replycolor{
+	color: white;
+	font-size: 13px;
+}
+.form-inline .search-bat{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.form-inline .form-group{
+	vertical-align: inherit;
+}
+.fixed-pager{
+	width:100%;
+	position: absolute;
+	bottom: 10px;
+}
+.pagination{
+	margin-bottom: 0;	
+}
+@media (max-height: 664px){
+	.fixed-pager{
+		top: 505px;
+	}
+}
+.list-content{
+	position:relative;
+	height: calc( 100% - 20px);
+	min-height: 614px;
 }
