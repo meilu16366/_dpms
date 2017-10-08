@@ -46,16 +46,12 @@
 				<label>年份</label>
 				<input type="text" id="year" readonly="readonly" class="form-control input-sm" name="year"
 				 value="<fmt:formatDate value='<%=new java.util.Date()%>' type="both" pattern='yyyy' />">
-				
 			</div>
-			 <button type="button" onclick="search()" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span> 查询</button>
+			 <button type="button" onclick="search()" class="btn btn-default btn-sm">查询</button>
 			<div class="pull-right">
-				<button type="button" class="btn btn-default btn-sm" onclick="add('/user/psinfo/find');"><span class="glyphicon glyphicon-collapse-down"></span> 新建</button>
-				<button type="button" class="btn btn-default btn-sm" onclick="edit('/user/psinfo/find');"><span class="glyphicon glyphicon-edit"></span> 修改</button>
-				<button type="button" class="btn btn-default btn-sm" onclick="del('/user/psinfo/delete');"><span class="glyphicon glyphicon-trash"></span> 删除</button>
+				<button type="button" class="btn btn-default btn-sm" onclick="add('/user/psinfo/find');">导出</button>
 			</div>
 		</div>
-		<div class="l-clear"></div>
 		<div id="ta" >
 		<table id="datagrid" >
 		</table>

@@ -10,8 +10,8 @@
 		<meta name="content-type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="/static/js/bootstrap/css/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="/static/css/mstyle.css"/>
 		<link rel="stylesheet" type="text/css" href="/static/js/easyUI/css/easyui.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/mstyle.css"/>
 		<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="/static/js/bootstrap/bootstrap.min.js"></script>
 		<style type="text/css">
@@ -99,37 +99,11 @@
 			.text-center{
 				text-align: right;
 			}
-			.searchcolor{background-color: #3ab1d5;}
-			.searchcolor:focus{
-				color:white;
-				background-color: #3ab1d5;
-			}
-			.searchcolor:hover{
-				color:white;
-				background-color: #3cb3d7;
-			}
-			.replycolor{background-color: #a28fd8;}
-			.replycolor:focus{
-				background-color: #a28fd8;
-				color: white;
-			}
-			.replycolor:hover{
-				background-color: #a48fda;
-				color: white;
-			}
-			.replycolor:checked{
-				color: white;
-			}
-			.searchcolor,.replycolor{
-				color: white;
-				font-size: 13px;
+			.pagination{
+				margin-bottom: 20px;	
 			}
 			.my-table{min-height: 560px;}
 			.dataTables_length {display: none !important;}
-			.datagrid-header .datagrid-cell span {
-			  font-size: 13px;
-			  font-weight: 700;
-			}
 			div[onclick]{
 				cursor: pointer;
 			}
