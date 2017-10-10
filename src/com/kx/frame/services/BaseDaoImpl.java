@@ -15,9 +15,6 @@ import com.kx.frame.utils.Pager;
 
 /**
  * dao
- * @author ml
- * @date 2017-07
- * @company 广东振森智能科技有限公司
  */
 @Component("daoSrv")
 @Transactional
@@ -158,5 +155,39 @@ public class BaseDaoImpl<T> implements IBaseDao<T> {
 	@Override
 	public List<T> find(Class<T> clazz) {
 		return getSession().createCriteria(clazz).list();
+	}
+
+	@Override
+	public Pager<Object> findBySql(String sql, String countsql, int pageNo, int pageSize) {
+		Pager<Object> pager = new Pager<Object>(pageNo, pageSize);
+		int rowCount = getRowCountBySql(countsql);
+		pager.setRowCount(rowCount);
+		Query query = sessionFactory.getCurrentSession().createSQLQuery(sql);
+		if(pageNo > pager.getPageCount()){
+			pager.setPageNo(1);
+		}
+		if(pageNo > 0){
+			query.setFirstResult((pageNo - 1) * pageSize);
+		}
+		if(pageSize > 0){
+			query.setMaxResults(pageSize);
+		}
+		pager.setDatas(query.list());
+		return pager;
+	}
+
+	private int getRowCountBySql(String countsql) {
+		int rowCount = 0;
+		Object o = sessionFactory.getCurrentSession().createSQLQuery(countsql).uniqueResult();
+		if( o != null) {
+			if(o instanceof Long){
+				rowCount = ((Long)o).intValue();
+			} else if(o instanceof Integer) {
+				rowCount = (Integer)o;
+			} else {
+				rowCount = Integer.parseInt(o.toString());
+			}
+		}
+		return rowCount;
 	}
 }

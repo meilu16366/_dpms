@@ -194,14 +194,14 @@
 	          	},
 	          	//验证原始密码
 	          	"checkpass" : {
-	          	  'url': '/checkpass',
+	          	  'url': '/da/password/checkpass',
           		  'alertTextOk': '',
           		  'alertText': '密码错误',
           		  'alertTextLoad': '正在验证...'
 	          	},
 	            //单个主气象仪验证
 	            "hasmain" : {
-	          		  'url': '/user/qxyinfo/hasmain',
+	          		  'url': '/da/qxyinfo/hasmain',
 	          		  'alertTextOk': '',
 	          		  'alertText': '已经存在主气象仪',
 	          		  'alertTextLoad': '正在验证...'

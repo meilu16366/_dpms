@@ -5,9 +5,6 @@ import org.apache.poi.ss.usermodel.Row;
 
 /**
  *  数据导出处理接口
- * @author ml
- * @date 2017-07
- * @company 广东振森智能科技有限公司
  */
 public interface ExportHandler<T> {
 	/**

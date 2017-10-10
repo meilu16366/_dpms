@@ -2,7 +2,6 @@ package com.kx.da.controller;
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang.StringEscapeUtils;
@@ -30,7 +29,7 @@ public class ListEventHisController {
 		String etime = DateFormatUtils.format(new Date(), "yyyy-MM-dd")+" "+CollectDef.RADIATION_END;
 		model.addAttribute("stime", stime);
 		model.addAttribute("etime", etime);
-		return "/realdata/listeventl";
+		return "/realdata/listevent";
 	}
 	@ResponseBody
 	@RequestMapping("/list")
@@ -82,4 +81,13 @@ public class ListEventHisController {
 		daoSrv.execSql(sql);
 		return "redirect:/da/event/page";
 	}
+	
+	@RequestMapping("/eventcount")
+	@ResponseBody
+	public Object eventCount() {
+		String hql = "select count(id) from  Eventhis where sure='N'";
+		Object count = daoSrv.findOneRowByHql(hql);
+		return count;
+	}
+
 }

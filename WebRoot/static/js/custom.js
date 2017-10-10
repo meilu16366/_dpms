@@ -2280,6 +2280,43 @@ function widthFunctions(e) {
 
 }
 
+//全屏切换事件
+function swichPoint(){
+	if(isFullscreen()){
+		exitFullscreen();
+	}else{
+		launchFullScreen(document.documentElement);
+	}
+}
+function isFullscreen(){
+    return document.fullscreenElement    ||
+           document.msFullscreenElement  ||
+           document.mozFullScreenElement ||
+           document.webkitFullscreenElement || false;
+}
+	// 全屏
+function launchFullScreen(element) {
+    if(element.requestFullscreen) {
+    	element.requestFullscreen();
+    } else if(element.mozRequestFullScreen) {
+    	element.mozRequestFullScreen();
+    } else if(element.webkitRequestFullscreen) {
+    	element.webkitRequestFullscreen();
+    } else if(element.msRequestFullscreen) {
+    	element.msRequestFullscreen();
+    }
+}
+	// 退出全屏
+function exitFullscreen() {
+    if(document.exitFullscreen) {
+    	document.exitFullscreen();
+    } else if(document.mozCancelFullScreen) {
+    	document.mozCancelFullScreen();
+    } else if(document.webkitExitFullscreen) {
+    	document.webkitExitFullscreen();
+    }
+}
+
 window.onresize = scorlls;
 $(scorlls);
 
@@ -2315,4 +2352,72 @@ $(".sid-rit").parent().on("click",function(){
 function logout(){
 	location.href = "/logout";
 }
-
+errorEqCount();
+//异常设备数量
+function errorEqCount(){
+	$.ajax({
+        type: "POST",
+        url: "/da/aequip/count",
+        dataType:"json",
+        success: function(data){
+        	if(data){
+        		$('#error-count').text((data[0]||0));
+        	}
+        	setTimeout(errorEqCount, 15000);
+        }
+	})
+}
+eventcount();
+function eventcount(){
+ $.ajax({
+     type: "post",
+     url: "/da/event/eventcount",
+     dataType: "json",
+     data: {},
+     success: function(data) {
+    	 $("#eventcount").text((+data).toFixed(0));
+    	 setTimeout(eventcount,15000);
+     }
+ })
+}
+function toevent(){
+	$("#iframe").attr("src","/da/event/page");
+	$('.menu-click').removeClass("active");
+	$('#eventlist').addClass("active");
+}
+function openRemote(opt){
+	opt.height = 300,
+	opt.width = 380,
+	$.ligerDialog.open(opt);
+}
+function opensvg(opt){
+	opt.height = 620,
+	opt.width = 980,
+	$.ligerDialog.open(opt);
+}
+downbard();
+//功率和转换效率
+function downbard(){
+	$.ajax({
+        type: "POST",
+        url: "/realdata/home/data",
+        dataType:"json",
+        success: function(data){
+        	if(data){
+        		var power = (data.acpower*100/(data.capacity*1000)).toFixed(2);
+        		var nbqpower = (data.nbqacpower*100/data.nbqdcpower).toFixed(2);
+        		$("#acpowernum").text((power>100?100:power)+"%");
+        		$("#acpowerbar").css("width",(power>100?100:power)+"%");
+        		
+        		$("#inverternum").text((nbqpower>100?100:nbqpower)+"%");
+        		$("#inverterbar").css("width",(nbqpower>100?100:nbqpower)+"%");
+        	}
+        	setTimeout(downbard, 15000);
+        }
+	})
+}
+function toConf(){
+	$("#iframe").attr("src","/da/charts/conf");
+	$('.menu-click').removeClass("active");
+	$('#userconf').addClass("active");
+}

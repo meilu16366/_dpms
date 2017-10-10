@@ -107,6 +107,12 @@
 			div[onclick]{
 				cursor: pointer;
 			}
+			.img-svg{
+				display:inline-block;
+				margin-left:5px;
+				margin-top:-2px;
+				cursor: pointer;
+			}
 			@media (max-width: 1400px){
 				.head-num{
 					font-size: 22px;
@@ -323,7 +329,10 @@
 			columns:[[
 			      { title: '逆变器编号',field: '_1', width:'9%',align: 'center',halign:'center',sortable:true},
 			      { title: '位置',field: '_2', width:'10%',align: 'center',halign:'center',},
-			      { title: '名称', field: '_3', width:'10%',align: 'left',halign:'center'},
+			      { title: '名称', field: '_3', width:'10%',align: 'left',halign:'center',formatter:function(value,row,index){
+						var html = "<img onclick='binds(this)' class='img-svg' src='/static/images/svgcheck.png' nbqid='"+row._1+"' nbqmodel='"+row.nbqmodel+"'>";
+						return value + html;
+				  }},
 			      { title: '额定功率(kW)', formatter:num2,field: '_4', width:'11%',align: 'center',halign:'center',sortable:true},
 			      { title: '直流功率(kW)', formatter:function(value,row,index){
 			    	  return loadBar(value,row._4,"#1adc94");
@@ -349,5 +358,21 @@
 		    }
 		});
 	})
+	function binds(obj){
+		var nbqid = $(obj).attr("nbqid");
+		var nbqmodel = $(obj).attr("nbqmodel");
+		parent.opensvg({
+	         title : '实时监测',
+	         url: "/monitor/svg/page?nbqid="+nbqid+"&nbqmodel="+encodeURIComponent(nbqmodel), 
+	         showMax: false,
+	         showToggle: true,
+	         showMin: false,
+	         isResize: true,
+	         slide: false,
+	         onClosed:function(data){
+	         }
+	 	});
+	}	
+
 	</script>
 </html>

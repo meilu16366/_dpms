@@ -25,7 +25,7 @@ public class Emihis implements Serializable {
 	@Formula("(select q.name from f_emi q where q.collectid=emiid )")
 	private String name;
 	/**采集时间*/
-	private @Id Date collecttime;
+	private @Id Date ctime;
 	/**环境湿度*/
 	private Double humidity;
 	/**环境温度*/
@@ -53,12 +53,7 @@ public class Emihis implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Date getCollecttime() {
-		return collecttime;
-	}
-	public void setCollecttime(Date collecttime) {
-		this.collecttime = collecttime;
-	}
+
 	public Double getHumidity() {
 		return humidity;
 	}
@@ -129,7 +124,7 @@ public class Emihis implements Serializable {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((collecttime == null) ? 0 : collecttime.hashCode());
+		result = prime * result + ((ctime == null) ? 0 : ctime.hashCode());
 		result = prime * result + ((emiid == null) ? 0 : emiid.hashCode());
 		return result;
 	}
@@ -142,10 +137,10 @@ public class Emihis implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Emihis other = (Emihis) obj;
-		if (collecttime == null) {
-			if (other.collecttime != null)
+		if (ctime == null) {
+			if (other.ctime != null)
 				return false;
-		} else if (!collecttime.equals(other.collecttime))
+		} else if (!ctime.equals(other.ctime))
 			return false;
 		if (emiid == null) {
 			if (other.emiid != null)
@@ -153,6 +148,12 @@ public class Emihis implements Serializable {
 		} else if (!emiid.equals(other.emiid))
 			return false;
 		return true;
+	}
+	public Date getCtime() {
+		return ctime;
+	}
+	public void setCtime(Date ctime) {
+		this.ctime = ctime;
 	}
 
 }

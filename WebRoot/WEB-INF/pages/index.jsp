@@ -21,10 +21,13 @@
 	<link id="base-style" href="/static/css/style.css" rel="stylesheet">
 	<link id="base-style-responsive" href="/static/css/style-responsive.css" rel="stylesheet">
 	<link href='/static/css/google.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/static/js/easyUI/css/easyui.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="/static/css/ligerui/ligerui-all.css">
+	
 	<!-- end: CSS -->
-		
 	<!-- start: Favicon -->
-	<link rel="shortcut icon" href="/static/img/favicon.ico">
+	<!-- <link rel="shortcut icon" href="/static/img/favicon.ico"> -->
 	<!-- end: Favicon -->
 	<style type="text/css">
 	html,body{
@@ -94,101 +97,21 @@
 						
 						<!-- start: Notifications Dropdown -->
 						<li class="dropdown hidden-phone">
-							<a class="btn dropdown-toggle" href="#">
+							<a class="btn dropdown-toggle" href="#" onclick="swichPoint()">
 								<i class="halflings-icon white fullscreen"></i>
 							</a>
 						</li>
 						<li class="dropdown hidden-phone">
-							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#" onclick="toevent()">
 								<i class="icon-bell"></i>
-								<span class="badge red">
-								7 </span>
+								<span class="badge red" id="eventcount">0</span>
 							</a>
-							<ul class="dropdown-menu notifications">
-								<li class="dropdown-menu-title">
- 									<span>You have 11 notifications</span>
-									<a href="#refresh"><i class="icon-repeat"></i></a>
-								</li>	
-                            	<li>
-                                    <a href="#">
-										<span class="icon blue"><i class="icon-user"></i></span>
-										<span class="message">New user registration</span>
-										<span class="time">1 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">7 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">8 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">16 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon blue"><i class="icon-user"></i></span>
-										<span class="message">New user registration</span>
-										<span class="time">36 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon yellow"><i class="icon-shopping-cart"></i></span>
-										<span class="message">2 items sold</span>
-										<span class="time">1 hour</span> 
-                                    </a>
-                                </li>
-								<li class="warning">
-                                    <a href="#">
-										<span class="icon red"><i class="icon-user"></i></span>
-										<span class="message">User deleted account</span>
-										<span class="time">2 hour</span> 
-                                    </a>
-                                </li>
-								<li class="warning">
-                                    <a href="#">
-										<span class="icon red"><i class="icon-shopping-cart"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">6 hour</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">yesterday</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon blue"><i class="icon-user"></i></span>
-										<span class="message">New user registration</span>
-										<span class="time">yesterday</span> 
-                                    </a>
-                                </li>
-                                <li class="dropdown-menu-sub-footer">
-                            		<a>View all notifications</a>
-								</li>	
-							</ul>
 						</li>
 						
 						
 						<!-- start: User Dropdown -->
 						<li class="dropdown">
-							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="padding: 15px 10px !important;">
 								<i class="halflings-icon white user"></i>${LOGIN_USER.sysname}
 								<span class="caret"></span>
 							</a>
@@ -196,7 +119,8 @@
 								<li class="dropdown-menu-title">
  									<span>设置</span>
 								</li>
-								<li><a href="#"><i class="halflings-icon user"></i>修改密码</a></li>
+								<li><a href="javascript:void(0);" onclick="toConf()"><i class="halflings-icon user"></i>修改密码</a></li>
+								<li><a href="/logout"><i class="halflings-icon off"></i>退出</a></li>
 							</ul>
 						</li>
 						<!-- end: User Dropdown -->
@@ -225,7 +149,7 @@
 							</a>
 						</li>
 						<li class="menu-click">
-							<a href="#">
+							<a href="/monitor/svg/page?svgurl=bwd" target="content">
 								<img src="/static/images/c-line.png" class="t-icon">
 								<span class="hidden-tablet">主接线图</span>
 							</a>
@@ -237,17 +161,17 @@
 							</a>
 						</li>
 						<li class="menu-click">
-							<a href="#">
+							<a href="/da/aequip/page" target="content">
 								<img src="/static/images/ero-eq.png" class="t-icon">
 								<span class="hidden-tablet">异常设备</span>
-								<span class="badge blue dev-num" >7</span>
+								<span class="badge blue dev-num" id="error-count">0</span>
 							</a>
 						</li>
 					</ul>
 					<div class="sidebar-line"></div>
 					<div class="f-title"><span>图表分析</span></div>
 					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li class="menu-click">
+						<li class="menu-click" id="eventlist">
 						<a href="/da/event/page" target="content">
 							<img src="/static/images/event-mn.png" class="t-icon">
 							<span class="hidden-tablet">事件管理</span>
@@ -261,21 +185,21 @@
 							</a>
 							<ul class="has-cil">
 								<li class="menu-click">
-									<a href="/report/inverter/list" target="content">
+									<a href="/da/inverterquota/page" target="content">
 										<span class="blank-w"></span>
 										<span class="">逆变器报表</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/psmonthquota/page" target="content">
 										<span class="blank-w"></span>
-										<span class="">电站生产日报表</span>
+										<span class="">电站生产月报表</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/psyearquota/page" target="content">
 										<span class="blank-w"></span>
-										<span class="">电站生产月报表</span>
+										<span class="">电站生产年报表</span>
 									</a>
 								</li>
 							</ul>	
@@ -288,13 +212,13 @@
 							</a>
 							<ul class="has-cil">
 								<li class="menu-click">
-									<a href="#">
+									<a href="da/charts/capbar" target="content">
 										<span class="blank-w"></span>
 										<span class="">发电量柱图</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="da/charts/ridian" target="content">
 										<span class="blank-w"></span>
 										<span class="">功率辐射曲线</span>
 									</a>
@@ -309,39 +233,33 @@
 							</a>
 							<ul class="has-cil">
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/mergephis/page" target="content">
 										<span class="blank-w"></span>
 										<span class="">并网点历史数据</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/btfhis/page" target="content">
 										<span class="blank-w"></span>
 										<span class="">箱变历史数据</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/inverterhis/page" target="content">
 										<span class="blank-w"></span>
 										<span class="">逆变器历史数据</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/elmhis/page" target="content">
 										<span class="blank-w"></span>
 										<span class="">电表历史数据</span>
 									</a>
 								</li>
 								<li class="menu-click">
-									<a href="#">
+									<a href="/da/emihis/page" target="content">
 										<span class="blank-w"></span>
 										<span class="">气象仪历史数据</span>
-									</a>
-								</li>
-								<li class="menu-click">
-									<a href="#">
-										<span class="blank-w"></span>
-										<span class="">开关柜历史数据</span>
 									</a>
 								</li>
 							</ul>
@@ -350,27 +268,60 @@
 					<div class="sidebar-line"></div>
 					<div class="f-title"><span>基础设置</span></div>
 					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li class="menu-click">
-							<a href="#" >
+						<li class="menu-click" id="userconf">
+							<a href="/da/charts/conf" target="content">
 								<img src="/static/images/p-10.png" class="t-icon">
 								<span class="hidden-tablet">个人设置</span>
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a class="dropmenu" href="#">
 								<img src="/static/images/p-11.png" class="t-icon">
 								<span class="hidden-tablet">配置管理</span>
+								<i class="icon-chevron-right sid-rit"></i>
 							</a>
+							<ul class="has-cil">
+								<li class="menu-click">
+									<a href="/base/mergep/page" target="content">
+										<span class="blank-w"></span>
+										<span class="">并网点配置</span>
+									</a>
+								</li>
+								<li class="menu-click">
+									<a href="/base/btf/page" target="content">
+										<span class="blank-w"></span>
+										<span class="">箱变配置</span>
+									</a>
+								</li>
+								<li class="menu-click">
+									<a href="/base/inverter/page" target="content">
+										<span class="blank-w"></span>
+										<span class="">逆变器配置</span>
+									</a>
+								</li>
+								<li class="menu-click">
+									<a href="/base/elm/page" target="content">
+										<span class="blank-w"></span>
+										<span class="">电表配置</span>
+									</a>
+								</li>
+								<li class="menu-click">
+									<a href="/base/emi/page" target="content">
+										<span class="blank-w"></span>
+										<span class="">气象仪配置</span>
+									</a>
+								</li>
+							</ul>
 						</li>
 					</ul>
-					<div class="f-title p-bar bar-title"><span>实时功率</span><span class="deg-bar">60%</span>
+					<div class="f-title p-bar bar-title"><span>实时功率</span><span class="deg-bar" id="acpowernum">0%</span>
 						<div class="progress custom-bar">
-						  <div class="bar" style="width: 60%;background-color: #4dafe3;background-image: linear-gradient(to bottom,#4dafe3,#4dafe3);"></div>
+						  <div id="acpowerbar" class="bar" style="width: 0%;background-color: #4dafe3;background-image: linear-gradient(to bottom,#4dafe3,#4dafe3);"></div>
 						</div>
 					</div>
-					<div class="f-title p-bar bar-title" style="height: 100px;"><span>转换效率</span><span  class="deg-bar">60%</span>
+					<div class="f-title p-bar bar-title" style="height: 100px;"><span>逆变器效率</span><span id="inverternum" class="deg-bar">0%</span>
 						<div class="progress custom-bar">
-						  <div class="bar" style="width: 60%;background-color: #695bb5;background-image: linear-gradient(to bottom,#695bb5,#695bb5);"></div>
+						  <div id="inverterbar" class="bar" style="width: 0%;background-color: #695bb5;background-image: linear-gradient(to bottom,#695bb5,#695bb5);"></div>
 						</div>
 					</div>
 				</div>
@@ -478,6 +429,8 @@
 		<script src="/static/js/retina.js"></script>
 
 		<script src="/static/js/jquery/jquery.nicescroll.min.js"></script>
+		<script type="text/javascript" src="/static/js/easyUI/jquery.easyui.min.js"></script>
+		<script src="/static/js/ligerui.all.js"></script>
 		<script src="/static/js/custom.js"></script>
 	<!-- end: JavaScript-->
 	

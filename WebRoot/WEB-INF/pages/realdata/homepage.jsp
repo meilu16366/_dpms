@@ -25,12 +25,12 @@
 			}
 			.home-head li{
 				float: left;
-				width: 14.28%;
+				width: 16.66666%;
 				list-style: none;
 			}
 			.home-head li img{
 				float: left;
-				margin: 7% 0 7% 5%;
+				margin: 7% 0 7% 7%;
 			}
 			.home-head li dl{
 				float: left;
@@ -188,8 +188,8 @@
 	<body>
 		<div class="container-fluid b-white" style="margin-top: 0;">
 			<div class="row head-p">
-				<div class="col-xs-6 head-tile"><span class="avol-head" style="border: 2px solid #14c972;"></span><span>电量数据</span></div>
-				<div class="col-xs-6 head-tile"><span class="avol-head" style="border: 2px solid #f2900f;"></span><span>环境数据</span></div>
+				<div class="col-xs-8 head-tile"><span class="avol-head" style="border: 2px solid #14c972;"></span><span>电量数据</span></div>
+				<div class="col-xs-4 head-tile"><span class="avol-head" style="border: 2px solid #f2900f;"></span><span>环境数据</span></div>
 			</div>
 			<div class="row">
 	  			<ul class="home-head">
@@ -233,13 +233,13 @@
 	  				</dl>
 	  				</li>
 	  				
-	  				<li>
+<!-- 	  				<li>
 	  				<img src="/static/images/radian.png"  >
 	  				<dl>
 	  					<dd><span id="ridianq">0.00</span></dd>
 	  					<dd>日辐射量(MJ/m²)</dd>
 	  				</dl>
-	  				</li>
+	  				</li> -->
 	  				
 <!-- 	  				<li>
 	  				<img src="/static/images/windy.png"  >

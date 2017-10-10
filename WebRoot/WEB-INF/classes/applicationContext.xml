@@ -17,6 +17,7 @@
     <!-- 配置数据源 -->
     
     <context:component-scan base-package="**.services"/>
+    <context:component-scan base-package="com.kx.remote.socket"/>
     <context:property-placeholder location="classpath:jdbc.properties" />
     <bean id="localDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
         <!-- 连接数据库的驱动 -->  

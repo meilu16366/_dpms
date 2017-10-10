@@ -97,6 +97,10 @@ body{
 		top: 505px;
 	}
 }
+.list-from{
+	height: 100% !important;
+}
+
 .list-content{
 	position:relative;
 	height: calc( 100% - 20px);

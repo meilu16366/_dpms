@@ -35,6 +35,8 @@ public class ElectricityMeter implements Serializable {
 	private Double rate;
 	/**计算方式：1，正向有功。2，反向有功*/
 	private Integer sumway;
+	/**类型(值列表1：主表，2：副表，3：线路表，4：站用电表，5：其他)*/
+	private Integer type;
 	public Double getRate() {
 		return rate;
 	}
@@ -130,6 +132,14 @@ public class ElectricityMeter implements Serializable {
 
 	public void setSumway(Integer sumway) {
 		this.sumway = sumway;
+	}
+
+	public Integer getType() {
+		return type;
+	}
+
+	public void setType(Integer type) {
+		this.type = type;
 	}
 
 	

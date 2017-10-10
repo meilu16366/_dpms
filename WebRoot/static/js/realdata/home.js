@@ -354,17 +354,7 @@ function radian(data){
 		    xAxis: [{
 		        type: 'category',
 		        boundaryGap: false,
-		        axisLabel:{
-		        	textStyle: {
-		                fontSize: 13,
-		                color: '#cecece'
-		            }
-		        },
-		        axisLine: {
-		            lineStyle: {
-		                color: '#d7d7d7'
-		            }
-		        },
+		       
 		        data: xdata
 		    }],
 		    yAxis: [{
@@ -373,21 +363,7 @@ function radian(data){
 		        axisTick: {
 		            show: false
 		        },
-		        axisLine: {
-		            lineStyle: {
-		                color: '#d7d7d7'
-		            }
-		        },
-		        axisLabel: {
-		            margin: 10,
-		            textStyle: {
-		                fontSize: 13,
-		                color: '#cecece'
-		            }
-		        },
-		        nameTextStyle:{
-		        	color: '#cecece'
-		        },
+		        
 		        splitLine: {
 		            lineStyle: {
 		                color: '#d2d2d2',
@@ -400,20 +376,7 @@ function radian(data){
 		        axisTick: {
 		            show: false
 		        },
-		        axisLine: {
-		            lineStyle: {
-		                color: '#d7d7d7'
-		            }
-		        },nameTextStyle:{
-		        	color: '#cecece'
-		        },
-		        axisLabel: {
-		            margin: 10,
-		            textStyle: {
-		                fontSize: 13,
-		                color: '#cecece'
-		            }
-		        },
+		        
 		        splitLine: {
 		            show:false,
 		            lineStyle: {
@@ -571,12 +534,6 @@ function capChart (data){
 	    yAxis : [
 	        {
 	            type : 'value',
-	            axisLabel: {
-			            textStyle: {
-			                fontSize: 13,
-			                color: '#5f5f5f'
-			            }
-			        },
 			        splitLine: {
 			            lineStyle: {
 			                color: '#d2d2d2',

@@ -1,0 +1,3350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="980"
+   id="svg3642"
+   version="1.1"
+   inkscape:version="0.48.1+SAGE v3.02"
+   onload="var src; if (document.documentURI) src = document.documentURI; else if (this.getSrc) src = this.getSrc(); else src = document.location.href + ''; try {parent.preload.load(src);}catch(e) {}"
+   sodipodi:docname="YG1.svg">
+  <defs
+     id="defs4213">
+    <linearGradient
+       id="linearGradient5346"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#acacc5;stop-opacity:1;"
+         offset="0"
+         id="stop5348" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5346"
+       id="linearGradient5350"
+       x1="-34.726986"
+       y1="-29.062002"
+       x2="212.38129"
+       y2="-29.062002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="matrix(0.61687425,0,0,0.61687425,-1136.8105,1132.2474)"
+       y2="-511.72684"
+       x2="488.91876"
+       y1="-511.72684"
+       x1="236.60674"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2161"
+       xlink:href="#linearGradient7025"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient7025"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0080c0;stop-opacity:1;"
+         offset="0"
+         id="stop7027" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.61687425,0,0,0.61687425,-1136.8105,1132.2474)"
+       y2="-511.72684"
+       x2="488.91876"
+       y1="-511.72684"
+       x1="236.60674"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2163"
+       xlink:href="#linearGradient5585"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient5585"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#89898b;stop-opacity:1;"
+         offset="0"
+         id="stop5587" />
+    </linearGradient>
+    <filter
+       id="filter2835"
+       inkscape:label="Emboss shader"
+       inkscape:menu-tooltip="Combination of smooth shading and embossing"
+       inkscape:menu="Non realistic 3D shaders"
+       height="1.5"
+       y="-0.25"
+       width="1.5"
+       x="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur2837"
+         stdDeviation="7"
+         result="result8" />
+      <feComposite
+         id="feComposite2839"
+         in2="result8"
+         result="result6"
+         operator="xor"
+         in="result8" />
+      <feDisplacementMap
+         id="feDisplacementMap2841"
+         in2="result6"
+         in="result8"
+         xChannelSelector="A"
+         yChannelSelector="A"
+         scale="75"
+         result="result4" />
+      <feComposite
+         id="feComposite2843"
+         in2="result4"
+         result="result2"
+         operator="arithmetic"
+         in="SourceGraphic"
+         k1="1"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite2845"
+         in2="result2"
+         result="fbSourceGraphic"
+         in="result8"
+         operator="in" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2847" />
+      <feGaussianBlur
+         id="feGaussianBlur2849"
+         result="result8"
+         stdDeviation="5"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite2851"
+         in2="result8"
+         in="result8"
+         operator="xor"
+         result="result6" />
+      <feDisplacementMap
+         id="feDisplacementMap2853"
+         in2="result6"
+         result="result4"
+         scale="100"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in="result8" />
+      <feComposite
+         id="feComposite2855"
+         in2="result4"
+         k1="1"
+         in="result4"
+         operator="arithmetic"
+         result="result2"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite2857"
+         in2="result8"
+         operator="in"
+         in="result2"
+         result="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter2859"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu="Non realistic 3D shaders"
+       inkscape:menu-tooltip="Brushed aluminium shader"
+       inkscape:label="Aluminium"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur2861"
+         result="result8"
+         stdDeviation="7" />
+      <feComposite
+         id="feComposite2863"
+         in2="SourceGraphic"
+         in="result8"
+         operator="xor"
+         result="result6" />
+      <feDisplacementMap
+         id="feDisplacementMap2865"
+         in2="result6"
+         result="result4"
+         scale="75"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in="result6" />
+      <feComposite
+         id="feComposite2867"
+         in2="SourceGraphic"
+         k1="1"
+         in="result4"
+         operator="arithmetic"
+         result="result2"
+         k2="0"
+         k3="0"
+         k4="0" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter1179-1">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15584262"
+         id="feGaussianBlur1181-7" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4211"
+     showgrid="false"
+     inkscape:zoom="0.67882251"
+     inkscape:cx="872.21297"
+     inkscape:cy="542.06274"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3642"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-global="false"
+     height="540.5px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2833"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5599">image/svg+xmlimage/svg+xmlimage/svg+xmlimage/svg+xmlimage/svg+xml<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     style="stroke:#00ff00"
+     id="g6336-9-1-1_1_"
+     transform="matrix(-1.3360526,0,0,-1.0472258,2231.4689,1800.1256)" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffff00;font-family:Sans"
+     xml:space="preserve"
+     x="525.71838"
+     y="970.3031"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:18.40015411px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffff00;font-family:Sans"
+     xml:space="preserve"
+     x="1018.5873"
+     y="778.30286"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7-3"
+     transform="scale(0.99842,1.0015825)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.999981px" />
+  <text
+     style="font-size:11.79896641px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffff00;font-family:Microsoft YaHei"
+     id="text13670"
+     xml:space="preserve"
+     x="1029.4633"
+     y="621.37982"
+     transform="scale(0.96391071,1.0374405)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="11.542359px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Sans"
+     xml:space="preserve"
+     x="524.5556"
+     y="1033.1746"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7-9"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Sans"
+     xml:space="preserve"
+     x="524.55609"
+     y="1064.0007"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7-9-2"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:12.26678276px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei"
+     xml:space="preserve"
+     x="483.86139"
+     y="1086.5972"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-77-8"
+     transform="scale(0.99842,1.0015825)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="12px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffff00;font-family:Sans"
+     xml:space="preserve"
+     x="524.53943"
+     y="1095.026"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-0"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffff00;font-family:Sans"
+     xml:space="preserve"
+     x="525.53937"
+     y="1126.5487"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-82"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffff00;font-family:Sans"
+     xml:space="preserve"
+     x="816.73096"
+     y="970.71265"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7-6"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Sans"
+     xml:space="preserve"
+     x="817.5658"
+     y="1033.0615"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7-9-0"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:18.38930321px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Sans"
+     xml:space="preserve"
+     x="817.5639"
+     y="1063.8878"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-7-9-2-6"
+     transform="scale(0.99783112,1.0021736)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989309px" />
+  <text
+     style="font-size:40.88930893px;font-style:normal;font-weight:normal;fill:#000000;font-family:Sans"
+     xml:space="preserve"
+     x="550.25702"
+     y="972.53247"
+     id="text4246"
+     font-weight="normal"
+     font-style="normal"
+     font-size="40px"
+     transform="scale(0.97613401,1.0244495)" />
+  <rect
+     style="fill:#00ff00;stroke:#00ff00;stroke-width:1.53334904;stroke-miterlimit:4"
+     id="rect30531-6-3-5-3-6-7-1-6"
+     width="19.95672"
+     height="20.944515"
+     x="18705.205"
+     y="450.69693"
+     stroke-miterlimit="4"
+     datasource="VTB${num}.0X0BG1" />
+  <text
+     style="font-size:18.40015411px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Sans"
+     xml:space="preserve"
+     x="1269.2899"
+     y="676.44757"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-77-8-7-80-2-9-7"
+     transform="scale(0.99842,1.0015825)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.999981px" />
+  <text
+     style="font-size:18.40015411px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Sans"
+     xml:space="preserve"
+     x="1259.8868"
+     y="679.39874"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-77-8-7-80-2-9-53"
+     transform="scale(0.99842,1.0015825)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.999981px" />
+  <text
+     style="font-size:9.7336998px;font-style:normal;font-weight:normal;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei"
+     xml:space="preserve"
+     x="1466.8431"
+     y="909.33148"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-7-1-6-7-9-1"
+     transform="scale(0.96456925,1.0367322)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="9.521996px"
+     datasource="VTB${num}.Pc" />
+  <g
+     id="g1750"
+     transform="matrix(0.99783606,0,0,1.0472258,-498.20794,823.79409)">
+    <g
+       transform="translate(359.96237,252.1659)"
+       id="g2795-2-1-2-5-4">
+      <g
+         transform="translate(-3.7866223,25.830775)"
+         id="g3447-1-4-5-3-7-2" />
+    </g>
+  </g>
+  <rect
+     style="fill:none"
+     id="rect10483"
+     width="709.75122"
+     height="703.3136"
+     x="122.09895"
+     y="153.73277" />
+  <path
+     style="fill:#005480;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path13660"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#005480;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path13704"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#005480;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path13708"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#005480;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path13710"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1985b0;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14134"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1985b0;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14136"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1985b0;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14140"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1985b0;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14192"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1985b0;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14194"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14266"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14272"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14274"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14276"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14280"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14282"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14284"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14304"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14308"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14310"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14312"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14316"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14320"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14334"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14338"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14340"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14344"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14350"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14352"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14354"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14362"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14364"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14366"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14370"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14380"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14382"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14386"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14388"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14392"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14414"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14422"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14424"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14432"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#1d5c75;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     d=""
+     id="path14434"
+     inkscape:connector-curvature="0" />
+  <rect
+     style="fill:#3b5d62;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.28436852;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect8410-5-7-7"
+     width="858.62183"
+     height="795.23486"
+     x="27.67454"
+     y="120.04788"
+     transform="matrix(1,0,0.00301931,0.99999544,0,0)" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15272164;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-52-2-3"
+     width="194.17676"
+     height="40.387993"
+     x="508.91611"
+     y="481.60217" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90508378;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-9-8-7"
+     width="152.07195"
+     height="40.387993"
+     x="704.79584"
+     y="481.60217" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90505111;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-24-5-2"
+     width="152.0667"
+     height="40.387997"
+     x="704.78918"
+     y="439.80664" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-498-7-6"
+     width="194.16992"
+     height="40.387997"
+     x="508.91611"
+     y="439.80664" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-88-6-0"
+     width="194.16992"
+     height="40.387997"
+     x="508.91611"
+     y="398.01178" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90505111;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-121-1-1"
+     width="152.0667"
+     height="40.387997"
+     x="704.78918"
+     y="398.01178" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90508378;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-45-8-65"
+     width="152.07195"
+     height="40.387993"
+     x="704.79584"
+     y="356.21646" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-62-9-7"
+     width="194.16992"
+     height="40.387997"
+     x="508.91611"
+     y="356.21646" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-60-2-5"
+     width="194.16992"
+     height="40.387997"
+     x="508.91611"
+     y="314.42114" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15288734;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-49-7-41"
+     width="194.16986"
+     height="40.395618"
+     x="508.91617"
+     y="272.64157" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90505111;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-3-9-2"
+     width="152.0667"
+     height="40.387997"
+     x="704.78918"
+     y="314.42114" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90526319;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-4-5-0"
+     width="152.07184"
+     height="40.395618"
+     x="704.79584"
+     y="272.64157" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90523016;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-0-4-0"
+     width="152.06662"
+     height="40.395618"
+     x="704.78918"
+     y="230.83871" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15288734;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-6-3-1"
+     width="194.16986"
+     height="40.395618"
+     x="508.91617"
+     y="230.83871" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15288734;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-7-1-4"
+     width="194.16986"
+     height="40.395618"
+     x="508.91617"
+     y="189.03557" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90523016;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-12-2-6"
+     width="152.06662"
+     height="40.395618"
+     x="704.78918"
+     y="189.03557" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-88-6-2-7"
+     width="194.07263"
+     height="40.388062"
+     x="509.10263"
+     y="731.13696" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-121-1-8-7"
+     width="151.99048"
+     height="40.388062"
+     x="704.87732"
+     y="731.13696" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-45-8-6-7"
+     width="151.99048"
+     height="40.388062"
+     x="704.87732"
+     y="689.34161" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-62-9-0-3"
+     width="194.07263"
+     height="40.388062"
+     x="509.10263"
+     y="689.34161" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-60-2-2-3"
+     width="194.07263"
+     height="40.388062"
+     x="509.10263"
+     y="647.5459" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-49-7-4-5"
+     width="194.07263"
+     height="40.388062"
+     x="509.10263"
+     y="605.75104" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-3-9-8-9"
+     width="151.99048"
+     height="40.388062"
+     x="704.87732"
+     y="647.5459" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-4-5-6-9"
+     width="151.99048"
+     height="40.388062"
+     x="704.87732"
+     y="605.75104" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-0-4-5-8"
+     width="151.99048"
+     height="40.388062"
+     x="704.87732"
+     y="563.95551" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-6-3-0-1"
+     width="194.07263"
+     height="40.388062"
+     x="509.10263"
+     y="563.95551" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-7-1-9-8"
+     width="194.07263"
+     height="40.388062"
+     x="509.10263"
+     y="522.16016" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-12-2-0-2"
+     width="151.99048"
+     height="40.388062"
+     x="704.87732"
+     y="522.16016" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15272164;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-52-2-3-0"
+     width="194.17676"
+     height="40.387993"
+     x="67.477203"
+     y="482.01917" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90508378;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-9-8-7-6"
+     width="152.07195"
+     height="40.387993"
+     x="263.35696"
+     y="482.01917" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90505111;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-24-5-2-8"
+     width="152.0667"
+     height="40.387997"
+     x="263.35028"
+     y="440.22339" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-498-7-6-1"
+     width="194.16992"
+     height="40.387997"
+     x="67.477203"
+     y="440.22339" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-88-6-0-9"
+     width="194.16992"
+     height="40.387997"
+     x="67.477203"
+     y="398.4285" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90505111;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-121-1-1-8"
+     width="152.0667"
+     height="40.387997"
+     x="263.35028"
+     y="398.4285" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90508378;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-45-8-65-9"
+     width="152.07195"
+     height="40.387993"
+     x="263.35696"
+     y="356.63342" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-62-9-7-7"
+     width="194.16992"
+     height="40.387997"
+     x="67.477203"
+     y="356.63342" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15268564;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-60-2-5-2"
+     width="194.16992"
+     height="40.387997"
+     x="67.477203"
+     y="314.83789" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15288734;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-49-7-41-2"
+     width="194.16986"
+     height="40.395618"
+     x="67.477249"
+     y="273.05853" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90505111;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-3-9-2-8"
+     width="152.0667"
+     height="40.387997"
+     x="263.35028"
+     y="314.83789" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90526319;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-4-5-0-2"
+     width="152.07184"
+     height="40.395618"
+     x="263.35696"
+     y="273.05853" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90523016;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-0-4-0-8"
+     width="152.06662"
+     height="40.395618"
+     x="263.35028"
+     y="231.25558" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15288734;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-6-3-1-9"
+     width="194.16986"
+     height="40.395618"
+     x="67.477249"
+     y="231.25558" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15288734;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-7-1-4-0"
+     width="194.16986"
+     height="40.395618"
+     x="67.477249"
+     y="189.45242" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90523016;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-12-2-6-7"
+     width="152.06662"
+     height="40.395618"
+     x="263.35028"
+     y="189.45242" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-88-6-2-7-6"
+     width="194.07263"
+     height="40.388062"
+     x="67.663742"
+     y="731.55389" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-121-1-8-7-1"
+     width="151.99048"
+     height="40.388062"
+     x="263.43851"
+     y="731.55389" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-45-8-6-7-2"
+     width="151.99048"
+     height="40.388062"
+     x="263.43851"
+     y="689.75848" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-62-9-0-3-4"
+     width="194.07263"
+     height="40.388062"
+     x="67.663742"
+     y="689.75848" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-60-2-2-3-2"
+     width="194.07263"
+     height="40.388062"
+     x="67.663742"
+     y="647.96283" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-49-7-4-5-5"
+     width="194.07263"
+     height="40.388062"
+     x="67.663742"
+     y="606.16797" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-3-9-8-9-8"
+     width="151.99048"
+     height="40.388062"
+     x="263.43851"
+     y="647.96283" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-4-5-6-9-6"
+     width="151.99048"
+     height="40.388062"
+     x="263.43851"
+     y="606.16797" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-0-4-5-8-2"
+     width="151.99048"
+     height="40.388062"
+     x="263.43851"
+     y="564.37231" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-6-3-0-1-6"
+     width="194.07263"
+     height="40.388062"
+     x="67.663742"
+     y="564.37231" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-7-1-9-8-5"
+     width="194.07263"
+     height="40.388062"
+     x="67.663742"
+     y="522.57703" />
+  <rect
+     style="opacity:0.5;fill:#0099a5;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-12-2-0-2-3"
+     width="151.99048"
+     height="40.388062"
+     x="263.43851"
+     y="522.57703" />
+  <path
+     d="M 152.68898,222.83255"
+     id="path6119_20_-5"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#e40000;stroke-width:2.23834586;display:inline" />
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-6"
+     y="206.76541"
+     x="74.262077"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-2"
+   y="206.76541"
+   x="74.262077"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">日发电量(kWh)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.94204288,1.0615228)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-1"
+     y="207.0302"
+     x="289.52652"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">205.23   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-2"
+     y="291.18585"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">2650.21   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-1"
+     y="329.23447"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">23.15   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-1-0"
+     y="371.90027"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">35.89   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-5-49"
+     y="408.66458"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">36.88   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-0-3"
+     y="448.44928"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">35.17   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-4"
+     y="483.40576"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">1.00   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-06-6"
+     y="249.11987"
+     x="76.022629"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4168-3"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">总发电量(kWh)   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-39-4"
+     y="289.14053"
+     x="75.352005"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan1391-3-7-1-6-7-2"
+       y="289.14053"
+       x="75.352005"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">减排CO2(kg)   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-88"
+     y="331.78122"
+     x="76.52002"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-7"
+   y="331.78122"
+   x="76.52002"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">温度(℃)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-9-5"
+     y="368.19958"
+     x="75.545151"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">MPPT1输入总功率(W)</text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-8-8"
+     y="405.29755"
+     x="75.017685"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-6-1"
+   y="405.29755"
+   x="75.017685"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">MPPT2输入总功率(W)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-25"
+     y="442.99002"
+     x="75.378098"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-74"
+   y="442.99002"
+   x="75.378098"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">MPPT3输入总功率(W)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-2-4"
+     y="480.69681"
+     x="73.546471"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4170-4"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">功率因数   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-9-4"
+     y="521.90045"
+     x="75.6633"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-6-4"
+   y="521.90045"
+   x="75.6633"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">AB线电压(V)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420443,1.0615212)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-7-2"
+     y="559.80469"
+     x="75.923584"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-3-9"
+   y="559.80469"
+   x="75.923584"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">BC线电压(V)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-30"
+     y="251.05617"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">26523.12   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-7-8"
+     y="526.47455"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">260.51   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9420452,1.0615202)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-5-3"
+     y="563.57263"
+     x="289.52576"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">245.23   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-7-5-0-5"
+     y="628.69019"
+     x="71.842567"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4172-0-4"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">CA线电压(V)   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-7-4-4-0"
+     y="667.96869"
+     x="72.351517"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-3-25-5-2"
+   y="667.96869"
+   x="72.351517"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">A相电流(A)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-6-4-6"
+     y="708.71515"
+     x="71.17144"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-0-9-0"
+   y="708.71515"
+   x="71.17144"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">B相电流(A)</tspan>   </text>
+  <text
+     font-size="11.986606px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9508783,1.0516593)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-6-0-5-6"
+     y="720.66034"
+     x="74.181702"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.986606px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4174-6-1"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">C相电流(A)   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747642,1.0126824)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-8-1"
+     y="636.27234"
+     x="276.20532"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan1391-3-7-1-0-4-1"
+       y="633.28955"
+       x="276.20532"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">245.56   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-3-7"
+     y="675.25049"
+     x="276.20474"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">10.23   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-1-0"
+     y="712.91766"
+     x="276.20474"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">10.88  </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-8-4"
+     y="751.91199"
+     x="276.20474"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">10.32   </text>
+  <path
+     d="M 609.0038,189.61194"
+     id="path5980-2-6_7_-2"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#fcf4f4;stroke-width:2.13576341;display:inline" />
+  <path
+     d="M 607.10874,195.62753"
+     id="path5980-5-3-3_7_-2"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#fcf4f4;stroke-width:2.13576341;display:inline" />
+  <path
+     d="M 576.76411,195.62753"
+     id="path6065_48_-0"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#f80000;stroke-width:2.13619995;display:inline" />
+  <path
+     d="M 632.83309,195.62753"
+     id="path6065_47_-5"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#f80000;stroke-width:2.13619995;display:inline" />
+  <path
+     d="M 627.22627,252.77538"
+     id="path5720-6-6-1_21_-1"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#f00000;stroke-width:2.13576341;display:inline" />
+  <path
+     d="M 628.62804,252.77538"
+     id="path5720-6-6-1_23_-6"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#f00000;stroke-width:2.13576341;display:inline" />
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-7-1-0-7"
+     y="294.6666"
+     x="523.06726"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4178-5"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV1输入电压(V)   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-6-6-4"
+     y="216.39659"
+     x="520.23578"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-0-8-8"
+   y="216.39659"
+   x="520.23578"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">电网频率(HZ)</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-5-2"
+     y="254.57375"
+     x="524.14307"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan1391-3-7-1-6-6-2-7-1"
+       y="254.57375"
+       x="524.14307"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">逆变器效率(%)   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-5-63-6"
+     y="335.11407"
+     x="522.17114"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-7-9-8"
+   y="335.11407"
+   x="522.17114"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV2输入电压</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-7-1-3"
+     y="380.32275"
+     x="521.53345"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-3-2-1"
+   y="380.32275"
+   x="521.53345"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV3输入电压</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-5-54-5"
+     y="259.37796"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">99.54   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-0-7-7"
+     y="298.39429"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">33.23</text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-0-8"
+     y="338.51236"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">44.26</text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-0-9-3"
+     y="383.24579"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">31.25 </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-1-6-7"
+     y="217.0376"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">49.99   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747642,1.0126824)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-6-7"
+     y="417.19687"
+     x="726.87469"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">56.55</text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-15-3"
+     y="459.20084"
+     x="726.87238"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">64.32</text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-4"
+     y="500.27878"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">65.66   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-3-1"
+     y="543.54779"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">5.23   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-1-2-0"
+     y="586.98132"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">5.89   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-5-4-3"
+     y="628.04791"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">5.98   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-0-5-5"
+     y="669.15747"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">5.78   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-1-1"
+     y="710.91705"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">6.04   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-6-3-5"
+     y="709.39697"
+     x="520.45953"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-60-6-5-6"
+   y="709.39697"
+   x="520.45953"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV5输入电流</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-0-2"
+     y="753.3299"
+     x="518.11847"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-60-2-0"
+   y="753.3299"
+   x="518.11847"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV6输入电流</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-72-98-3"
+     y="667.73969"
+     x="520.22015"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4180-9-5"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV4输入电流   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-72-6"
+     y="419.60773"
+     x="523.72302"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4180-6"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV4输入电压   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-4-7-1-6-6"
+     y="459.07538"
+     x="523.40668"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-6-2-3-2-2-7"
+   y="459.07538"
+   x="523.40668"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV5输入电压</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-67"
+     y="504.6579"
+     x="520.96753"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-60-7"
+   y="504.6579"
+   x="520.96753"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV6输入电压</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-72-9-1"
+     y="545.88501"
+     x="519.21722"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.542359px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4180-8-9"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV1输入电流   </tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-6-1"
+     y="586.40845"
+     x="520.96198"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-60-6-6"
+   y="586.40845"
+   x="520.96198"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV2输入电流</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747789,1.0126809)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-14-3-2"
+     y="628.43921"
+     x="520.685"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-6-60-1-7"
+   y="628.43921"
+   x="520.685"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">PV3输入电流</tspan>   </text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-7-1-5-2"
+     y="751.28528"
+     x="726.87299"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-0-1-4-0-7"
+   y="751.28528"
+   x="726.87299"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">0.0</tspan>   </text>
+  <g
+     id="g4436-4-1"
+     transform="matrix(1.0933971,0,0,1.2588161,158.46567,-188.67823)">
+    <g
+       id="g4486-74">
+      <rect
+         style="fill:#d5dbe6;fill-opacity:1;fill-rule:nonzero;stroke:#d1dffe;stroke-width:4.07005978;stroke-miterlimit:4"
+         stroke-miterlimit="4"
+         rx="8.2415791"
+         ry="3.4756842"
+         y="220.39339"
+         x="154.97778"
+         height="29.295048"
+         width="187.908"
+         id="rect29073-4-7-7-5-5-0" />
+      <text
+         style="font-size:17.04746819px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         transform="scale(1.0579195,0.94525151)"
+         id="text7414-4-1-3-9"
+         y="254.7142"
+         x="192.75107"
+         xml:space="preserve"
+         font-weight="normal"
+         font-style="normal"
+         font-size="16.000063px"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:17.04746819px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+           y="254.7142"
+           x="192.75107"
+           id="tspan7416-0-0-0-4"
+           font-weight="normal">模拟量列表</tspan></text>
+    </g>
+  </g>
+  <rect
+     style="fill:#3b5d62;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.63700771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect8410-5"
+     width="621.14893"
+     height="792.16833"
+     x="907.27759"
+     y="119.99831"
+     transform="matrix(1,0,0.0021928,0.9999976,0,0)" />
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,343.74921,-220.7849)"
+     id="g2481-40"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-6"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="630.4491"
+       y="464.00919"
+       id="text2477-1"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1551942,0.8656553)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-8"
+         x="630.4491"
+         y="464.00919">无光照待机</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,343.74921,-285.49478)"
+     id="g2481-7"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-1"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="618.98267"
+       y="471.62112"
+       id="text2477-0"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1739717,0.8518093)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-7"
+         x="618.98267"
+         y="471.62112">限功率并网</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,342.88004,3.3878496)"
+     id="g2481-5"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-5"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562847px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="630.47784"
+       y="465.80637"
+       id="text2477-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1599265,0.86212363)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-3"
+         x="630.47784"
+         y="465.80637">组串1异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,342.88004,68.336621)"
+     id="g2481-8"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-15"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="643.20178"
+       y="456.95166"
+       id="text2477-86"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1375608,0.87907386)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-1"
+         x="643.20178"
+         y="456.95166">组串2异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,342.88004,130.49258)"
+     id="g2481-9"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-52"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="630.75842"
+       y="466.43835"
+       id="text2477-00"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1611565,0.86121035)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-39"
+         x="630.75842"
+         y="466.43835">组串3异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     id="g2481-4-1-4"
+     transform="matrix(0.87432553,0,0,1.4316256,606.10326,130.68228)"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;@ttr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;&quot;,&quot;param&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-7-2-1"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="633.60107"
+       y="470.88574"
+       id="text2477-83-0-96"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1724226,0.85293476)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-5-1-98"
+         x="633.60107"
+         y="470.88574">温度过高</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,474.18767,-355.85326)"
+     id="g2481-3"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-7"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.342453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:STFangsong;-inkscape-font-specification:STFangsong"
+       x="705.81519"
+       y="414.66455"
+       id="text2477-10"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0322318,0.96877465)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-0"
+         x="705.81519"
+         y="414.66455"
+         style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">绝缘阻抗检测</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,738.23375,-355.85326)"
+     id="g2481-4"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-56"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="624.46198"
+       y="485.39944"
+       id="text2477-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.2084247,0.82752363)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-03"
+         x="624.46198"
+         y="485.39944">启动</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,738.08382,-287.11122)"
+     id="g2481-56"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-66"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="603.30188"
+       y="504.10318"
+       id="text2477-7"
+       sodipodi:linespacing="125%"
+       transform="scale(1.2548732,0.79689326)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-6"
+         x="603.30188"
+         y="504.10318">并网</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,383.93172,-364.63324)"
+     id="g4036"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-19"
+       width="129.05249"
+       height="27.229109"
+       x="815.11462"
+       y="434.87845" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="697.41016"
+       y="542.34448"
+       id="text2477-16"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1973354,0.83518787)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-2"
+         x="697.41016"
+         y="542.34448">异常关机</tspan></text>
+  </g>
+  <g
+     id="g2481-1"
+     transform="matrix(0.87432553,0,0,1.4316256,737.39614,-61.071713)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="385.51041"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-159"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-510"
+       y="427.16965"
+       x="677.66345"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.0584599,0.9447689)"><tspan
+         y="427.16965"
+         x="677.66345"
+         id="tspan2479-64"
+         sodipodi:role="line">DC输入电压高</tspan></text>
+  </g>
+  <g
+     id="g2481-53"
+     transform="matrix(0.87432553,0,0,1.4316256,738.62381,250.17709)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-0"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-8"
+       y="430.44977"
+       x="673.21039"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.071526,0.93324847)"><tspan
+         y="430.44977"
+         x="673.21039"
+         id="tspan2479-9"
+         sodipodi:role="line">软件版本不匹配</tspan></text>
+  </g>
+  <g
+     id="g2481-13"
+     transform="matrix(0.87432553,0,0,1.4316256,473.32902,3.3878496)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-47"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-46"
+       y="463.91965"
+       x="629.36237"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1549924,0.86580656)"><tspan
+         y="463.91965"
+         x="629.36237"
+         id="tspan2479-36"
+         sodipodi:role="line">组串1反向</tspan></text>
+  </g>
+  <g
+     id="g2481-52"
+     transform="matrix(0.87432553,0,0,1.4316256,603.77792,-58.3556)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-8"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-103"
+       y="420.58499"
+       x="693.78168"
+       style="font-size:14.62562847px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.0470855,0.95503187)"><tspan
+         y="420.58499"
+         x="693.78168"
+         id="tspan2479-155"
+         sodipodi:role="line">直流电路异常</tspan></text>
+  </g>
+  <g
+     id="g2481-2"
+     transform="matrix(0.87432553,0,0,1.4316256,737.39621,3.8634346)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-21"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-74"
+       y="428.38202"
+       x="672.47229"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.0663589,0.93777057)"><tspan
+         y="428.38202"
+         x="672.47229"
+         id="tspan2479-82"
+         sodipodi:role="line">逆变器电路异常</tspan></text>
+  </g>
+  <g
+     id="g2481-36"
+     transform="matrix(0.87432553,0,0,1.4316256,606.75695,193.46836)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-30"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-35"
+       y="444.36783"
+       x="651.75623"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1061726,0.90401805)"><tspan
+         y="444.36783"
+         x="651.75623"
+         id="tspan2479-28"
+         sodipodi:role="line">电网频率异常</tspan></text>
+  </g>
+  <g
+     id="g2481-0"
+     transform="matrix(0.87432553,0,0,1.4316256,473.32902,68.336621)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-72"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-25"
+       y="459.47931"
+       x="634.02576"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1436205,0.87441594)"><tspan
+         y="459.47931"
+         x="634.02576"
+         id="tspan2479-91"
+         sodipodi:role="line">组串2反向</tspan></text>
+  </g>
+  <g
+     id="g2481-34"
+     transform="matrix(0.87432553,0,0,1.4316256,738.23208,68.749901)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-10"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-48"
+       y="499.76755"
+       x="584.76453"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.2442418,0.80370231)"><tspan
+         y="499.76755"
+         x="584.76453"
+         id="tspan2479-59"
+         sodipodi:role="line">系统故障</tspan></text>
+  </g>
+  <g
+     id="g2481-25"
+     transform="matrix(0.87432553,0,0,1.4316256,737.42123,193.46836)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-41"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-39"
+       y="442.8183"
+       x="654.05743"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1023153,0.90718142)"><tspan
+         y="442.8183"
+         x="654.05743"
+         id="tspan2479-58"
+         sodipodi:role="line">电网电压异常</tspan></text>
+  </g>
+  <g
+     id="g2481-27"
+     transform="matrix(0.87432553,0,0,1.4316256,473.32902,130.49258)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-9"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-61"
+       y="459.30042"
+       x="635.21106"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1436204,0.87441603)"><tspan
+         y="459.30042"
+         x="635.21106"
+         id="tspan2479-77"
+         sodipodi:role="line">组串3反向</tspan></text>
+  </g>
+  <g
+     id="g2481-33"
+     transform="matrix(0.87432553,0,0,1.4316256,607.44687,3.8641506)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-24"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-12"
+       y="423.00867"
+       x="688.73975"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.0529056,0.94975275)"><tspan
+         y="423.00867"
+         x="688.73975"
+         id="tspan2479-90"
+         sodipodi:role="line">残余电流异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,608.98917,-289.38295)"
+     id="g2481-72"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-76"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="626.203"
+       y="476.02567"
+       id="text2477-51"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1851102,0.84380339)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-399"
+         x="626.203"
+         y="476.02567">指令关机</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,607.8409,-356.40813)"
+     id="g2481-59"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-2"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="653.29102"
+       y="444.28427"
+       id="text2477-6"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1059647,0.904188)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-5"
+         x="653.29102"
+         y="444.28427">电网调度P曲线</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     id="g2481-4-1-4-8"
+     transform="matrix(0.87432553,0,0,1.4316256,738.60445,131.77791)"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;@ttr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;&quot;,&quot;param&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-7-2-1-1"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="596.49139"
+       y="492.81439"
+       id="text2477-83-0-96-9"
+       sodipodi:linespacing="125%"
+       transform="scale(1.2270209,0.81498205)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-5-1-98-8"
+         x="596.49139"
+         y="492.81439">接地异常</tspan></text>
+  </g>
+  <g
+     id="g2481-08-9"
+     transform="matrix(0.87432553,0,0,1.4316256,607.09664,69.582671)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-50-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-79-2"
+       y="453.39703"
+       x="655.96735"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.128774,0.8859169)"><tspan
+         y="453.39703"
+         x="655.96735"
+         id="tspan2479-05-2"
+         sodipodi:role="line">升级失败</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,343.70861,191.52789)"
+     id="g2481-9-0"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-52-7"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="646.06567"
+       y="455.44537"
+       id="text2477-00-8"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1337903,0.88199731)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-39-1"
+         x="646.06567"
+         y="455.44537">组串4异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,341.36443,307.94053)"
+     id="g2481-9-6"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-52-26"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="642.83679"
+       y="459.97388"
+       id="text2477-00-53"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1450644,0.87331333)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-39-9"
+         x="642.83679"
+         y="459.97388">组串6异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,340.81968,247.84508)"
+     id="g2481-9-2"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-52-4"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="646.06592"
+       y="455.44525"
+       id="text2477-00-61"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1337903,0.88199731)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-39-82"
+         x="646.06592"
+         y="455.44525">组串5异常</tspan></text>
+  </g>
+  <g
+     id="g2481-27-1"
+     transform="matrix(0.87432553,0,0,1.4316256,473.31716,192.78895)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-9-1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-61-9"
+       y="459.30072"
+       x="638.38092"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1436206,0.87441587)"><tspan
+         y="459.30072"
+         x="638.38092"
+         id="tspan2479-77-7"
+         sodipodi:role="line">组串4反向</tspan></text>
+  </g>
+  <g
+     id="g2481-27-6"
+     transform="matrix(0.87432553,0,0,1.4316256,473.31716,248.43906)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-9-2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-61-95"
+       y="464.37259"
+       x="631.37103"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.156249,0.86486561)"><tspan
+         y="464.37259"
+         x="631.37103"
+         id="tspan2479-77-2"
+         sodipodi:role="line">组串5反向</tspan></text>
+  </g>
+  <g
+     id="g2481-27-0"
+     transform="matrix(0.87432553,0,0,1.4316256,471.34181,307.94053)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-9-0"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-61-3"
+       y="463.36273"
+       x="635.89685"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1537346,0.86675047)"><tspan
+         y="463.36273"
+         x="635.89685"
+         id="tspan2479-77-9"
+         sodipodi:role="line">组串6反向</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,343.0261,-58.35526)"
+     id="g2481-32-1"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-44-8"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="650.17621"
+       y="445.43216"
+       id="text2477-4-1"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1088219,0.90185809)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-27-9"
+         x="650.17621"
+         y="445.43216">内部通讯故障</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87432553,0,0,1.4316256,474.08568,-58.3556)"
+     id="g2481-32-5"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-44-3"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="641.026"
+       y="449.70621"
+       id="text2477-4-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1194614,0.8932867)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-27-5"
+         x="641.026"
+         y="449.70621">逆变电路异常</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,340.72177,-354.93144)"
+     id="g2481-3-9"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-7-9"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+  </g>
+  <text
+     sodipodi:linespacing="125%"
+     id="text2477-26"
+     y="211.31947"
+     x="1143.9233"
+     style="font-size:16.68494225px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     xml:space="preserve"
+     transform="scale(0.86949837,1.1500884)"><tspan
+       y="211.31947"
+       x="1143.9233"
+       id="tspan2479-53"
+       sodipodi:role="line">初始化</tspan></text>
+  <g
+     id="g2481-92"
+     transform="matrix(0.87432553,0,0,1.4316256,606.6045,254.85307)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-3"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-73"
+       y="464.55786"
+       x="637.96667"
+       style="font-size:14.62562847px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1569887,0.8643127)"><tspan
+         y="464.55786"
+         x="637.96667"
+         id="tspan2479-15"
+         sodipodi:role="line">Flash故障</tspan></text>
+  </g>
+  <g
+     id="g2481-78"
+     transform="matrix(0.87432553,0,0,1.4316256,607.79849,308.51286)"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     style="display:inline">
+    <rect
+       y="383.61319"
+       x="711.87708"
+       height="27.229109"
+       width="129.05249"
+       id="rect2475-58"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2477-32"
+       y="444.95761"
+       x="662.14874"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"
+       transform="scale(1.1077633,0.90271991)"><tspan
+         y="444.95761"
+         x="662.14874"
+         id="tspan2479-4"
+         sodipodi:role="line">绝缘阻抗低</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87425535,0,0,1.4886138,475.75427,-223.63054)"
+     id="g2481-32"
+     style="display:inline">
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-44"
+       width="129.05249"
+       height="27.229109"
+       x="711.87708"
+       y="383.61319" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="697.39233"
+       y="413.45029"
+       id="text2477-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0292089,0.97162004)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-27"
+         x="697.39233"
+         y="413.45029">电网调度QU曲线</tspan></text>
+  </g>
+  <g
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}"
+     transform="matrix(0.87411023,0,0,1.6242332,334.1739,-480.32828)"
+     id="g2481-56-1"
+     style="display:inline">
+    <rect
+       inkscape:label=""
+       style="fill:#004455;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect2475-66-7"
+       width="129.05249"
+       height="27.229109"
+       x="718.44104"
+       y="382.29001" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="584.39404"
+       y="502.46143"
+       id="text2477-7-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.2548732,0.79689326)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-6-0"
+         x="584.39404"
+         y="502.46143">逆变器状态</tspan></text>
+    <path
+       style="fill:none;stroke:#f00000;stroke-width:1.92308152"
+       inkscape:connector-curvature="0"
+       id="path5720-6-6-1-4_3_-2"
+       d="M 768.9873,581.65538" />
+    <path
+       style="fill:none;stroke:#f20606;stroke-width:1.89581513"
+       inkscape:connector-curvature="0"
+       id="path6225_2_-4"
+       d="M 845.09424,579.17103" />
+    <path
+       style="fill:none;stroke:#ee1212;stroke-width:1.89581513"
+       inkscape:connector-curvature="0"
+       id="path6223-2_4_-5"
+       d="M 859.08631,580.83486" />
+    <path
+       style="fill:none;stroke:#ee1212;stroke-width:1.89581513"
+       inkscape:connector-curvature="0"
+       id="path6223-2_3_-5"
+       d="M 830.13694,580.32243" />
+    <path
+       style="fill:none;stroke:#e60505;stroke-width:2.5785861"
+       inkscape:connector-curvature="0"
+       id="path6233_4_-1"
+       d="M 724.90535,580.85332" />
+    <path
+       style="fill:none;stroke:#f20f37;stroke-width:2.36934638"
+       inkscape:connector-curvature="0"
+       id="path5690_7_-7"
+       d="M 824.89122,579.97512" />
+    <path
+       style="fill:none;stroke:#eb0000;stroke-width:1.61066115"
+       inkscape:connector-curvature="0"
+       id="path5929_4_-7-1"
+       d="M 697.2091,568.493" />
+    <rect
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;#FFFFFF&quot;,&quot;tag&quot;:&quot;%tag&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;#FF0000&quot;,&quot;tag&quot;:&quot;%tag&quot;}]}"
+       style="fill:#004455;fill-opacity:1;stroke:#ff0000;stroke-width:1.64094746;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;display:inline"
+       id="rect2475-66-7-1"
+       width="129.05249"
+       height="27.229109"
+       x="719.84033"
+       y="550.64459" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.62562943px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="592.3161"
+       y="713.70642"
+       id="text2477-7-4-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.2548732,0.79689327)"><tspan
+         sodipodi:role="line"
+         id="tspan2479-6-0-2"
+         x="592.3161"
+         y="713.70642">故障异常</tspan></text>
+  </g>
+  <g
+     id="g4436-4-3"
+     transform="matrix(0.94663085,0,0,1.0898457,942.14231,-144.57998)">
+    <g
+       id="g4486-7">
+      <rect
+         style="fill:#d5dbe6;fill-opacity:1;fill-rule:nonzero;stroke:#d1dffe;stroke-width:4.24039459;stroke-miterlimit:4"
+         stroke-miterlimit="4"
+         rx="8.5864954"
+         ry="3.6211438"
+         y="214.28864"
+         x="171.64542"
+         height="30.521065"
+         width="195.77206"
+         id="rect29073-4-7-7-5-5-3" />
+      <text
+         style="font-size:19.69051933px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         transform="scale(1.0579195,0.94525151)"
+         id="text7414-4-1-3-5"
+         y="249.92082"
+         x="205.66408"
+         xml:space="preserve"
+         font-weight="normal"
+         font-style="normal"
+         font-size="16.000063px"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:19.69051933px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+           y="249.92082"
+           x="205.66408"
+           id="tspan7416-0-0-0-8"
+           font-weight="normal">测控光字牌</tspan></text>
+    </g>
+  </g>
+  <rect
+     style="fill:#3b5d62;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.39466715;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect8410-5-4"
+     width="337.22717"
+     height="632.36652"
+     x="1539.1625"
+     y="121.10178"
+     transform="matrix(1,0,0.00149133,0.99999889,0,0)" />
+  <g
+     id="g4436-4-3-1"
+     transform="matrix(0.99204881,0,0,1.1421349,1450.9055,-153.62727)">
+    <g
+       id="g4486-7-7">
+      <rect
+         style="fill:#d5dbe6;fill-opacity:1;fill-rule:nonzero;stroke:#d1dffe;stroke-width:3.89454174;stroke-miterlimit:4"
+         stroke-miterlimit="4"
+         rx="6.769733"
+         ry="3.8742743"
+         y="212.31627"
+         x="171.45988"
+         height="32.654587"
+         width="154.34991"
+         id="rect29073-4-7-7-5-5-3-4" />
+      <text
+         style="font-size:18.78904724px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         transform="scale(1.0579195,0.94525151)"
+         id="text7414-4-1-3-5-0"
+         y="248.6021"
+         x="207.05907"
+         xml:space="preserve"
+         font-weight="normal"
+         font-style="normal"
+         font-size="16.000063px"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:18.78904724px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+           y="248.6021"
+           x="207.05907"
+           id="tspan7416-0-0-0-8-9"
+           font-weight="normal">控制区</tspan></text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.68097166,0,0,0.78399523,1522.7154,25.584105)"
+     id="g4486-7-7-8"
+     inkscape:label="{&quot;attr&quot;:&quot;script&quot;,&quot;list&quot;:[{&quot;evt&quot;:&quot;mouseup&quot;,&quot;param&quot;:&quot;yk('1_NBQ_YK_1_open',0)&quot;}]}">
+    <rect
+       style="fill:#29cbd5;fill-opacity:1;fill-rule:nonzero;stroke:#29cbd5;stroke-width:1.57927299;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       stroke-miterlimit="4"
+       rx="11.89931"
+       ry="6.8098979"
+       y="194.33696"
+       x="143.88031"
+       height="57.397701"
+       width="271.30426"
+       id="rect29073-4-7-7-5-5-3-4-8" />
+    <text
+       style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="scale(1.0579195,0.94525151)"
+       id="text7414-4-1-3-5-0-2"
+       y="247.931"
+       x="194.88309"
+       xml:space="preserve"
+       font-weight="normal"
+       font-style="normal"
+       font-size="16.000063px"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+         y="247.931"
+         x="194.88309"
+         id="tspan7416-0-0-0-8-9-4"
+         font-weight="normal">远程开机</tspan></text>
+  </g>
+  <g
+     transform="matrix(0.68097166,0,0,0.78399523,1522.7154,170.04786)"
+     id="g4486-7-7-8-5"
+     inkscape:label="">
+    <rect
+       style="fill:#29cbd5;fill-opacity:1;fill-rule:nonzero;stroke:#29cbd5;stroke-width:1.57924533;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       stroke-miterlimit="4"
+       rx="11.89931"
+       ry="6.8098979"
+       y="194.33696"
+       x="143.88031"
+       height="57.397701"
+       width="271.30426"
+       id="rect29073-4-7-7-5-5-3-4-8-5" />
+    <text
+       style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="scale(1.0579195,0.94525151)"
+       id="text7414-4-1-3-5-0-2-1"
+       y="247.931"
+       x="194.88309"
+       xml:space="preserve"
+       font-weight="normal"
+       font-style="normal"
+       font-size="16.000063px"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+         y="247.931"
+         x="194.88309"
+         id="tspan7416-0-0-0-8-9-4-7"
+         font-weight="normal">远程关机</tspan></text>
+  </g>
+  <g
+     transform="matrix(0.68097166,0,0,0.78399523,1522.7154,314.5116)"
+     id="g4486-7-7-8-1"
+     inkscape:label="">
+    <rect
+       style="fill:#29cbd5;fill-opacity:1;fill-rule:nonzero;stroke:#29cbd5;stroke-width:1.57924533;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       stroke-miterlimit="4"
+       rx="11.89931"
+       ry="6.8098979"
+       y="194.33696"
+       x="143.88031"
+       height="57.397701"
+       width="271.30426"
+       id="rect29073-4-7-7-5-5-3-4-8-1" />
+    <text
+       style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="scale(1.0579195,0.94525151)"
+       id="text7414-4-1-3-5-0-2-5"
+       y="247.931"
+       x="194.88309"
+       xml:space="preserve"
+       font-weight="normal"
+       font-style="normal"
+       font-size="16.000063px"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+         y="247.931"
+         x="194.88309"
+         id="tspan7416-0-0-0-8-9-4-2"
+         font-weight="normal">功率调节</tspan></text>
+  </g>
+  <g
+     transform="matrix(0.68097166,0,0,0.78399523,1522.7154,458.97539)"
+     id="g4486-7-7-8-7"
+     inkscape:label="{&quot;attr&quot;:&quot;script&quot;,&quot;list&quot;:[{&quot;evt&quot;:&quot;mouseup&quot;,&quot;param&quot;:&quot;yk('1_NBQ_YT_1_cos',4)&quot;}]}">
+    <rect
+       style="fill:#29cbd5;fill-opacity:1;fill-rule:nonzero;stroke:#29cbd5;stroke-width:1.57924533;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       stroke-miterlimit="4"
+       rx="11.89931"
+       ry="6.8098979"
+       y="194.33696"
+       x="143.88031"
+       height="57.397701"
+       width="271.30426"
+       id="rect29073-4-7-7-5-5-3-4-8-6" />
+    <text
+       style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="scale(1.0579195,0.94525151)"
+       id="text7414-4-1-3-5-0-2-14"
+       y="247.96478"
+       x="160.5905"
+       xml:space="preserve"
+       font-weight="normal"
+       font-style="normal"
+       font-size="16.000063px"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:34.59666824px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+         y="247.96478"
+         x="160.5905"
+         id="tspan7416-0-0-0-8-9-4-23"
+         font-weight="normal">功率因数调节</tspan></text>
+  </g>
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-88-6-2-7-6-1"
+     width="194.07263"
+     height="40.388062"
+     x="67.727036"
+     y="773.65759" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-121-1-8-7-1-7"
+     width="151.99048"
+     height="40.388062"
+     x="263.50183"
+     y="773.65759" />
+  <text
+     font-size="11.986606px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9508783,1.0516593)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-6-0-5-6-5"
+     y="760.69604"
+     x="74.248291"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.986606px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4174-6-1-5"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">有功功率</tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-8-4-1"
+     y="793.48865"
+     x="276.26886"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">112.64  </text>
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.15214658;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-88-6-2-7-6-11"
+     width="194.07263"
+     height="40.388062"
+     x="509.44711"
+     y="773.65759" />
+  <rect
+     style="opacity:0.5;fill:#0986bd;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.90457511;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect8454-3-121-1-8-7-1-5"
+     width="151.99048"
+     height="40.388062"
+     x="705.22186"
+     y="773.65759" />
+  <text
+     font-size="11.986606px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.9508783,1.0516593)"
+     id="text6197-6-9-3-4-6-2-2-2-4-8-7-6-0-5-6-2"
+     y="760.69604"
+     x="538.78729"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     sodipodi:linespacing="125%"><tspan
+       font-size="11.986606px"
+       font-style="normal"
+       font-weight="normal"
+       id="tspan4174-6-1-1"
+       style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">无功功率</tspan></text>
+  <text
+     font-size="11.542359px"
+     font-style="normal"
+     font-weight="normal"
+     transform="scale(0.98747887,1.0126799)"
+     id="text6197-6-9-3-4-6-2-2-2-4-5-3-0-7-8-4-6"
+     y="793.48865"
+     x="727.21381"
+     xml:space="preserve"
+     style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;display:inline;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     inkscape:label=""
+     sodipodi:linespacing="125%">    <tspan
+   font-size="11.542359px"
+   font-style="normal"
+   font-weight="normal"
+   id="tspan1391-3-7-1-0-6-9-2-4-8-8"
+   y="793.48865"
+   x="727.21381"
+   style="font-size:16.6140976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">0.0</tspan>   </text>
+  <text
+     style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+     id="text13670-1-7-1"
+     xml:space="preserve"
+     x="1564.161"
+     y="867.3374"
+     transform="matrix(1.0222193,0.0041189,-0.00394172,0.97824778,0,0)"
+     font-weight="normal"
+     font-style="normal"
+     font-size="17.989351px"
+     sodipodi:linespacing="125%"><tspan
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       id="tspan13672-7-7-7"
+       x="1564.161"
+       y="867.3374"
+       font-weight="normal"
+       font-style="normal"
+       font-size="22px">通讯状态 </tspan></text>
+  <g
+     transform="matrix(1.329039,0,0,1.329039,1276.9619,-499.14829)"
+     id="g4292"
+     inkscape:label="{&quot;@ttr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%tag=&quot;]}">
+    <rect
+       y="1002.3326"
+       x="354.12164"
+       height="23.688078"
+       width="23.688078"
+       id="rect368"
+       style="fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter1179-1)"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;%tag&quot;}" />
+    <text
+       sodipodi:linespacing="125%"
+       font-size="17.989351px"
+       font-style="normal"
+       font-weight="normal"
+       transform="matrix(1.0222193,0.0041189,-0.00394172,0.97824778,0,0)"
+       y="1042.8634"
+       x="350.90829"
+       xml:space="preserve"
+       id="text13670-1-7-1-4"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;%tag&quot;}"><tspan
+         font-size="22px"
+         font-style="normal"
+         font-weight="normal"
+         y="1042.8634"
+         x="350.90829"
+         id="tspan13672-7-7-7-0"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">通 </tspan></text>
+  </g>
+</svg>

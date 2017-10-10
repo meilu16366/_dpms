@@ -46,7 +46,7 @@ public class EventThread implements Runnable {
 					String _id = null;
 					Document doc = its.next();
 					try {
-						_id = doc.get("_id")+"";
+						_id = doc.get("id")+"";
 						String val = doc.get("value")+"";
 						String issoe = doc.get("issoe")+"";
 						Measure measure = cache.getMeasure(_id);

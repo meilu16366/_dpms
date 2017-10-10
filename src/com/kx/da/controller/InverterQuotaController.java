@@ -1,6 +1,7 @@
 package com.kx.da.controller;
 
 import java.math.BigDecimal;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
+import org.apache.commons.lang.time.DateUtils;
 import org.apache.poi.hssf.usermodel.HSSFDataFormat;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
@@ -27,6 +29,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.kx.base.beans.Inverter;
 import com.kx.da.beans.InverterQuotaDay;
 import com.kx.da.beans.SearchParam;
+import com.kx.da.services.InverterDayQuota;
 import com.kx.frame.def.KXFrameDef;
 import com.kx.frame.services.ExportController;
 import com.kx.frame.services.ExportHandler;
@@ -37,10 +40,16 @@ import com.kx.frame.utils.SysParamUtil;
 
 
 @Controller
-@RequestMapping("/da/quota")
+@RequestMapping("/da/inverterquota")
 public class InverterQuotaController extends ExportController {
+	
 	@Autowired
 	private IBaseDao daoSrv;
+	@RequestMapping("/page")
+	public String page() {
+		
+		return "/report/inverterReport";
+	}
 	/**
 	 * 逆变器月指标列表
 	 * @return
@@ -70,6 +79,9 @@ public class InverterQuotaController extends ExportController {
 				}
 				if(StringUtils.isNotEmpty(searchParam.getDate())) {
 					sql += " and a.ctime='"+searchParam.getDate()+"' ";
+				}
+				if(StringUtils.isNotEmpty(searchParam.getName())) {
+					
 				}
 			}else if(searchParam.getSelWay().equals("month")) {
 				sql = "select 'a' as d,b.name,1 as cty,sum(a.daycap),"
@@ -317,6 +329,11 @@ public class InverterQuotaController extends ExportController {
 		}
 		this.outputExcel(wb, name+" 监控系统逆变器指标报表" + ".xls", response);
 	}
-
-	
+	@Autowired
+	private InverterDayQuota inverterDayQuota;
+	@RequestMapping("/calc")
+	public String calc(String date) throws ParseException {
+		inverterDayQuota.calc(null, DateUtils.parseDate(date, new String[] {"yyyy-MM-dd"}));
+		return "redirect:/da/inverterquota/page";
+	}
 }

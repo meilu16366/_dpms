@@ -32,6 +32,8 @@ public class AEQdata implements Serializable,Comparable<AEQdata> {
 	private String eqtype;
 	/**采集编号*/
 	private Integer collectid;
+	/**位置*/
+	private String place;
 	public String getEqtype() {
 		return eqtype;
 	}
@@ -111,5 +113,11 @@ public class AEQdata implements Serializable,Comparable<AEQdata> {
 		}else {
 			return 0;
 		}
+	}
+	public String getPlace() {
+		return place;
+	}
+	public void setPlace(String place) {
+		this.place = place;
 	}
 }

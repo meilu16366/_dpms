@@ -78,7 +78,7 @@ public class PSDayQuotaImpl implements PSDayQuota {
 		quotaday.setHours(hour.isNaN()||hour.isInfinite()?0:hour);
 		//逆变器最大出力及时间
 		sql = " select t.ctime,t.acp from ("
-				+ " select ctime,sum(ACPower) as acp from da_inverterhis "
+				+ " select ctime,sum(ACPower) as acp from da_inverter "
 				+ " where ctime>= '"+DateFormatUtils.format(date, "yyyy-MM-dd HH:mm:ss")+"'"
 				+ " and ctime<'"+DateFormatUtils.format(DateUtils.addDays(date, 1), "yyyy-MM-dd HH:mm:ss")+"' "
 				+ "group by ctime"
@@ -91,7 +91,7 @@ public class PSDayQuotaImpl implements PSDayQuota {
 		
 		//并网点最大出力及时间
 		sql = " select t.ctime,t.acp from ("
-				+ " select ctime,sum(ActivePower) as acp from data_bwdhis "
+				+ " select ctime,sum(ActivePower) as acp from da_mergepoint "
 				+ " where ctime>='"+DateFormatUtils.format(date, "yyyy-MM-dd HH:mm:ss")+"'"
 				+ " and ctime<'"+DateFormatUtils.format(DateUtils.addDays(date, 1), "yyyy-MM-dd HH:mm:ss")+"' "
 				+ "group by ctime"
@@ -100,7 +100,6 @@ public class PSDayQuotaImpl implements PSDayQuota {
 		//Object[] bwmaxout = (Object[]) bwquery.setMaxResults(1).uniqueResult();
 		
 		List<Object[]>  bwmaxout = daoSrv.findBySql(sql);
-		List sList = null ;
 
 		if(CollectionUtils.isNotEmpty(bwmaxout)) {
 			quotaday.setMaxbwpower(bwmaxout.get(0)==null?0d:NumberUtils.toDouble(bwmaxout.get(0)[1]+""));
@@ -141,6 +140,8 @@ public class PSDayQuotaImpl implements PSDayQuota {
 			Object toltalRadia = daoSrv.findOneRowBySql(sql);
 			quotaday.setTotalradia(NumberUtils.toDouble(toltalRadia+""));
 		}
+		sql = "delete from da_psquotaday where ctime='"+DateFormatUtils.format(date, "yyyy-MM-dd")+"' and psdayid<>0";
+		daoSrv.execSql(sql);
 		daoSrv.saveOrUpdate(quotaday);
 		return true;
 	}

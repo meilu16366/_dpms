@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Lazy;
  *
  */
 @Entity
-@Table(name="da_inverterhis")
+@Table(name="da_inverter")
 public class Inverterhis implements Serializable {
 	
 	private static final long serialVersionUID = 1L;

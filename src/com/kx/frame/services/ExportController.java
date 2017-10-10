@@ -32,7 +32,7 @@ public abstract class ExportController {
 	 * @throws Exception
 	 */
 	protected final Workbook loadModelFile(String filePath) throws Exception {
-		InputStream in = new FileInputStream(ServiceBean.getServletContext().getRealPath("/user/report")+"/" + filePath);
+		InputStream in = new FileInputStream(ServiceBean.getServletContext().getRealPath("/static/report")+"/" + filePath);
 		Workbook wb = new HSSFWorkbook(in);
 		return wb;
 	}
@@ -47,9 +47,7 @@ public abstract class ExportController {
 	protected final void outputExcel(Workbook wb,String name,HttpServletResponse response) throws Exception {
 		long s = System.currentTimeMillis();
 		response.setContentType("application/vnd.ms-excel");
-		String  fileName=new String(name.getBytes("UTF-8"),"UTF-8");
-		System.out.println(fileName);
-		response.setHeader("Content-Disposition", "attachment;filename=\"" + new String(name.getBytes("UTF-8"),"UTF-8")+"\"");
+        response.setHeader("content-disposition", "attachment; filename=\"" + new String(name.getBytes("GBK"),"ISO-8859-1")+"\"");  
 		OutputStream out = response.getOutputStream();
 		wb.write(out);
 		out.flush();

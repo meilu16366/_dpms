@@ -22,6 +22,7 @@ import com.kx.cache.services.Cache;
 import com.kx.collect.services.MemoryHandler;
 import com.kx.da.beans.PSquotaDay;
 import com.kx.frame.def.CollectDef;
+import com.kx.frame.def.KXFrameDef;
 import com.kx.frame.services.IBaseDao;
 import com.kx.frame.sys.beans.Parameter;
 import com.kx.frame.utils.DateUtil;
@@ -213,7 +214,12 @@ public class HomeDataController {
 		datas.put("so2", (Double)datas.get("totalcap")*CollectDef.DE_SO2);
 		//COX
 		datas.put("cox", (Double)datas.get("totalcap")*CollectDef.DE_C0X);
-		
+		datas.put("capacity", NumberUtils.toDouble(KXFrameDef.CAPACITY,1));
+		//逆变器
+		Double nbqacpower = (Double) memoryHandler.getCommonRealValue(CollectDef.INVERTER_ACPOWER);
+		datas.put("nbqacpower", nbqacpower==null?0:nbqacpower);
+		Double nbqdcpower = (Double) memoryHandler.getCommonRealValue(CollectDef.INVERTER_DCPOWER);
+		datas.put("nbqdcpower", nbqdcpower==null?0:nbqdcpower);
 		return datas;
 	}
 	

@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	font-family: "微软雅黑";
+	background: #04344b;
+	font-size: 10px;
+}
+.WH-100 {
+	width:100%;
+	height:100%;
+}
+.font-10 {
+	font-size: 10px;
+}
+.font-12 {
+	font-size: 12px;
+}
+.font-14 {
+	font-size: 14px;
+}
+.font-16 {
+	font-size: 16px;
+}
+.font-18 {
+	font-size: 18px;
+}
+.font-20 {
+	font-size: 20px;
+}
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+.t-a-l {
+	text-align: left;
+}
+.t-a-r {
+	text-align: right;
+}
+.t-a {
+	text-align: center;
+}
+.ver-md {
+	vertical-align: middle;
+}
+.ver-top {
+	vertical-align: top;
+}
+.d-lb {
+	display: inline-block;
+}
+.p-r {
+	position: relative;
+}
+.p-a {
+	position: absolute;
+}
+.d-f {
+	display: flex;
+}
+.d-spaceBt { 
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-center {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex-sa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ul {
+	list-style: none;
+}
+/* 字体颜色 */
+.col-FFF {
+	color: #FFFFFF;
+}
+.col-EEE {
+	color: #EEEEEE;
+}
+/* 背景颜色 */
+.bg-114f6a {
+	background: #114f6a;
+}
+/* 逆变器状态公用样式 */
+.rectangle {
+	display: inline-block;
+    padding: 6px 9px;
+    transform: skew(-20deg);
+}
+/* iframe */
+iframe {
+    border: 0;
+    font-size: 14px;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* 中心部分导航栏公用样式 */
+.search-bar {
+	width: 100%;
+	height: 60px;
+	background: #0C3E57;
+	margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.search-input>label {
+	font-size: 14px;
+	margin-left: 10px;
+	color: white;
+}
+.search-input> input {
+	width: 120px;
+    height: 25px;
+    background: #0C3E57;
+    border: 1px solid #0b5369;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radis: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding-left: 8px;
+    margin: 10px;
+    font-size: 12px;
+}
+.search-input button, .buttons button {
+    background: #187693;
+    color: #EEEEEE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radis: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+.search-input>select {
+    height: 28px;
+    min-width: 80px;
+    background: #0C3E57;
+    border: 1px solid #0b5369;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding:0 10px 0 10px;
+    margin-left: 10px;
+    appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	font-size: 12px;
+}
+select::-ms-expand { display: none;} 
+.buttons{
+	height: 60px;
+	position: absolute;
+    right: 25px;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.l-button{
+	 margin-left: 20px;
+}
+
+.search-input{
+	float: left;
+	padding-left: 30px;
+	color: white;
+}
+.openDg{
+	width: 100%;
+	text-align: center;
+}
+.allBtns {
+	background: #187693;
+	color: #EEEEEE;
+	border: none;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.label_title {      
+	min-width: 70px;
+    color: #EEEEEE;
+    margin-left: 25px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    background: url(../img/second-title.png);
+    background-size: 100% 100%;
+    padding: 6px 20px 6px 15px;
+}
+.clear_float {
+	width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #0b5369;
+    padding-bottom: 15px;
+}
+.mar_line {
+	margin-top: 15px;
+}
+.mask {
+	filter:blur(5px);
+	-webkit-filter:blur(5px);
+	-moz-filter:blur(5px);
+	-ms-filter:blur(5px);
+	-o-filter:blur(5px);
+}
+/* "更多"按钮样式及hover效果 */
+#more a:hover {
+	color: #ff855e;
+}
+#more a {
+	color: #0AB5E1;text-decoration: underline;
+	font-size: 15px;
+}
+/* 屏幕适应 */
+@media only screen and (max-width: 1700px) and (min-width: 1400px) {
+	.search-input>label, .search-input button, .buttons button, .label_title {
+		font-size: 12px;
+	}
+	#more a {
+	 	font-size: 14px;
+	 }
+	 .rectangle {
+		display: inline-block;
+	    padding: 5px 8px;
+	    transform: skew(-20deg);
+	}
+}
+@media only screen and (max-width: 1399px) and (min-width: 1000px) {
+	.search-input>label, .search-input button, .buttons button, .label_title {
+		font-size: 12px;
+	}
+	#more a {
+	 	font-size: 14px;
+	 }
+	 .rectangle {
+		display: inline-block;
+	    padding: 4px 7px;
+	    transform: skew(-20deg);
+	}
+}

@@ -77,7 +77,15 @@ public interface IBaseDao<T> {
 	 * @return 
 	 */
 	Pager<T> findByHql(String hql,String counthql,int pageNo,int pageSize);
-	
+	/**
+	 * 分页查询
+	 * @param hql
+	 * @param counthql
+	 * @param pageNo
+	 * @param pageSize
+	 * @return 
+	 */
+	Pager<Object> findBySql(String sql,String countsql,int pageNo,int pageSize);
 	/**
 	 * 获得总数
 	 * @param hql

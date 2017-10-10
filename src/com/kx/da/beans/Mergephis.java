@@ -11,9 +11,6 @@ import org.hibernate.annotations.Formula;
 import org.springframework.context.annotation.Lazy;
 /**
  * 并网历史数据
- * @author ml
- * @date 2017-07
- * @company 广东振森智能科技有限公司
  */
 @Entity
 @Table(name="da_mergepoint")
@@ -25,7 +22,7 @@ public class Mergephis implements Serializable {
 	/**名称*/
 	//配置于id之后
 	@Lazy(value=true)
-	@Formula("(select t.name from f_mergePoint t where t.collectid=mpid)")
+	@Formula("(select t.name from f_mergep t where t.collectid=mpid)")
 	private String name;
 	/**采集时间*/
 	private @Id Date ctime;

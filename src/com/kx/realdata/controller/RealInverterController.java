@@ -55,6 +55,7 @@ public class RealInverterController {
 		for(Inverter pi : pis) {
 			Map<String,Object> one = new HashMap<String,Object>();
 			one.put("id", pi.getId());
+			one.put("nbqmodel", pi.getModels());
 			one.put("_1", pi.getCollectid());
 			one.put("_2", pi.getPlace());
 			one.put("_3", pi.getName());

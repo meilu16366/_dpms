@@ -6,13 +6,11 @@ import java.util.concurrent.Executors;
 import org.apache.log4j.Logger;
 
 import com.kx.frame.services.ServiceBean;
+import com.kx.remote.socket.HeartbeatHandler;
 
 
 /**
  * 线程管理
- * @author ml
- * @date 2017-07
- * @company 广东振森智能科技有限公司
  */
 public class ThreadManager {
 
@@ -36,5 +34,7 @@ public class ThreadManager {
 		Runnable common =  ServiceBean.getBean("commonThread");
 		excpool.execute(common);
 		logger.info("总数据线程启动！");
+		HeartbeatHandler.initIpAndPort();
+		logger.info("心跳启动");
 	}
 }

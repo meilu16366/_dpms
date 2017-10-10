@@ -19,8 +19,6 @@ public class MergePoint implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private @Id Long id;
 	
-	/**电站id*/
-	private Integer psid;
 	/**名称*/
 	private String name;
 	/**生产厂家*/
@@ -28,18 +26,11 @@ public class MergePoint implements Serializable {
 	/**安装位置*/
 	private String place;
 	/**采集编号*/
-	private Integer  collectid;
+	private Integer collectid;
 	/**型号*/
 	private String models;
 	/**备注*/
 	private String remark;
-	
-	public Integer getPsid() {
-		return psid;
-	}
-	public void setPsid(Integer psid) {
-		this.psid = psid;
-	}
 
 	public String getName() {
 		return name;

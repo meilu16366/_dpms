@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Lazy;
  *  箱变历史数据
  */
 @Entity
-@Table(name="da_btfhis")
+@Table(name="da_btf")
 public class Btfhis implements Serializable {
 	
 	private static final long serialVersionUID = 1L;

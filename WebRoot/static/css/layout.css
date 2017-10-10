@@ -1,0 +1,69 @@
+#remark {height: 70px;}
+form.formular,
+.validationEngineContainer{width:98%;min-height:500px;margin-top:10px;padding: 40px 20px 20px 20px;border-radius:3px;background:#ffffff;font-family:verdana,"sans-serif";font-size:12px;}
+.formular fieldset{margin-bottom:15px;padding:15px;border:1px solid #0b5369;}
+.formular legend{width:140px;height:35px;color:#00CDFE;font-size:14px;font-weight:bold;position:absolute;top:25px; left: 20px;text-align:right;background:url(../img/title.png);background-size: 100% 100%;line-height: 43px;padding-right: 12px;}
+.formular label{display:inline-block;margin: 30px 0px 0px 80px;color:black;font-size:14px;}
+.formular code{display:block;margin:0 0 10px 0;padding:3px 5px;}
+.formular code:last-child{margin-bottom:0;}
+.formular input{}
+.formular .btn-sub{width: 100%;text-align: center;}
+.formular select,
+.formular textarea{display:block;/* this breaks relative positioning */}
+.formular select{width: 120px;height:30px;margin-bottom:10px;padding:4px;border:1px solid #4b6ea3;border-radius:3px;display: inline-block;margin-left: 60px;background: #ffffff;color: black;}
+.formular .text-input{margin: 23px 0 10px 60px; width:45%;height: 25px;padding:4px;border:1px solid #0b5369;border-radius:3px;background:#0b3e57;color:white;font-size:14px;}
+.formular textarea{width:300px;height:70px;margin-bottom:10px;padding:4px;border:1px solid #B5B8C8;border-radius:3px;background:#FFF;color:#555;font-size:14px;display:inline-block;}
+.formular .tips{margin-bottom:10px;color:#777;}
+.formular .infos{margin-bottom:10px;padding:10px;background:#FFF;color:#333;font-size:12px;}
+.formular span.checkbox,
+.formular .checkbox,
+.formular .radio{display:inline;margin:0 5px 0 62px;padding:0;vertical-align:-2px;*vertical-align:middle;}
+.formular .submit{width:60px; height: 30px;margin:20px 0 0 30px;border:none;border-radius:3px;background:#4b6ea3;color:#fff;text-decoration:none;cursor:pointer;}
+.formular hr{clear:both;visibility:hidden;}
+.formular .fc-error{width:350px;color:#555;margin-bottom:15px;padding:4px;border:1px solid #B5B8C8;background:#FFEAEA;font-size:12px;}
+/*.formular input[data-prompt-position="inline"]{display:inline;}*/
+.footnote{color:#666;font-size:11px;font-style:italic;}
+.prompt-target{min-height:21px;border:1px dotted #666;}
+.inline-prompts label > span{display:inline-block;width:250px;}
+.inline-prompts .text-input+.formError{margin-left:10px;}
+.prompt-summary .inline{display:block;}
+
+.apicon{overflow:hidden;font:12px/16px Arial;}
+.apicon a{float:left;margin:10px 10px 0 0;padding:5px 10px;border:1px solid #ddd;border-radius:3px;color:#333;}
+.apicon a:hover{border-color:#347ebf;background:#ebf2f9;color:#347ebf;text-decoration:none;}
+.apicon a:active{box-shadow:inset 0 0 3px #347ebf;}
+
+.test{width:600px;margin:10px 0 0 0;padding:5px 10px;border-radius:3px;background:#f3f3f3;color:#333;}
+.form-loc{
+	width:50%;
+	margin:0;
+	padding:0;
+	float: left;
+}
+.formular .tab_input {
+	float:right;
+	margin: 23px 10% 10px 0;
+}
+.alert-loc {
+	display: flex;
+    justify-content: space-between;
+}
+.d-flex-sa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.d-lb {
+	display: inline-block;
+}
+.alert-loc label {
+	display:inline-block;margin: 20px 0px 0px 50px;color:black;font-size:14px;
+}
+@media screen and (max-width: 1470px){
+	.formular label, .formular .text-input, .formular textarea, .formular legend {
+		font-size: 12px;
+	}
+	.formular label {
+		margin: 30px 0px 0px 40px;
+	}
+}
