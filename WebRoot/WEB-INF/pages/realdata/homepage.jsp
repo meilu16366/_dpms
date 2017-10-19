@@ -366,7 +366,7 @@
 				<div class="col-xs-5 view-d" style="border-left: 20px solid #e5e5e5;">
 					<div class="row">
   						<div class="col-xs-12 cut-tile">
- 							<span>逆变器状态</span>
+ 							<span>电站信息</span>
  						</div>
   					</div>
   					<div class="row">

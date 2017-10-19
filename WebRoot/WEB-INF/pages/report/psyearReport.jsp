@@ -17,7 +17,7 @@
 		<script type="text/javascript" src="/static/js/bootstrap/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/static/js/easyUI/jquery.easyui.min.js"></script>
 		<style type="text/css">
-		.list-contentd{padding-bottom: 20px;}
+		.list-contentd{padding-bottom: 20px;height: calc( 100% - 20px);}
 		</style>
 	</head>
 	<body>
@@ -65,7 +65,7 @@
 				 { title: '日期',field: 'ctime', align: 'center',width:wid,halign:'center',
 			    	  formatter:function(value,row,index){
 				    	  	var date = new Date(value);
-				    	  	return date.format("yyyy-MM-dd");
+				    	  	return date.format("yyyy-MM");
 				      	 }
 			      }
 			]],

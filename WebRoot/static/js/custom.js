@@ -2421,3 +2421,23 @@ function toConf(){
 	$('.menu-click').removeClass("active");
 	$('#userconf').addClass("active");
 }
+
+nowTime();
+function nowTime(){
+	var date = new Date();
+	var year = date.getFullYear();
+	var month = date.getMonth()+1;
+	var day = date.getDate();
+	var hour = date.getHours();
+	var minite = date.getMinutes();
+	var secen = date.getSeconds();
+
+	fmtDate = year+" 年 "+Fzero(month)+" 月"+Fzero(day)+" 日"+"&nbsp;&nbsp;"+
+			Fzero(hour)+":" +Fzero( minite) +":" + Fzero(secen);
+	$('#time').html(fmtDate)
+	setTimeout(nowTime, 1000);
+}
+function Fzero(d){
+	return d<10?("0"+d):d;
+}
+

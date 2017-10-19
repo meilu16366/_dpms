@@ -74,7 +74,9 @@
 		overflow-y:auto ;
 		height: calc( 100% - 50px );
 	}
-
+	.timed:hover{
+		background-color: rgba(0,0,0,0);
+	}
 	</style>
 		
 </head>
@@ -94,7 +96,9 @@
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
 					<ul class="nav pull-right">
-						
+						<li>
+							<a id="time" class="btn dropdown-toggle timed"></a>
+						</li>
 						<!-- start: Notifications Dropdown -->
 						<li class="dropdown hidden-phone">
 							<a class="btn dropdown-toggle" href="#" onclick="swichPoint()">

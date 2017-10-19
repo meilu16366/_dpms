@@ -82,10 +82,13 @@
                     <property name="name" value="default"/>
                 </bean>
                 <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean">
-                    <property name="name" value="inverterState"/><!-- 点表缓存 -->
+                    <property name="name" value="inverterState"/>
                 </bean>
                 <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean">
                     <property name="name" value="infos"/><!-- 基础数据 -->
+                </bean>
+                <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean">
+                    <property name="name" value="measure"/><!-- 点表缓存 -->
                 </bean>
             </set>
         </property>
